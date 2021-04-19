@@ -1,0 +1,22 @@
+package com.casestudy.controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+
+import com.cases.entity.Car;
+import com.casestudy.repository.CarRepository;
+
+public class CarController {
+
+	@Autowired
+	CarRepository carRepository;
+	
+	@GetMapping
+	private List<Car> getAllCars(){
+		return carRepository.findAll();
+	}
+	
+	
+}

@@ -1,0 +1,42 @@
+package com.casestudy.entity;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Entity(name="car")
+@NoArgsConstructor
+@AllArgsConstructor
+@Data
+public class Car {
+	
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	Integer id;
+	
+	@Column(name="manufacturer")
+	String manufacturer;
+	
+	@Column(name="model")
+	String model;
+	
+	@Column(name="year")
+	Integer year;
+	
+	@Column(name="color")
+	String color;
+	
+	@Column(name="vin")
+	Integer vin;
+	
+	@Column(name="miles")
+	Double miles;
+
+}

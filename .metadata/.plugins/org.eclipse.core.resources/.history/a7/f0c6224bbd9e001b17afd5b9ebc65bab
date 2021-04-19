@@ -1,0 +1,5 @@
+package com.cases.entity;
+
+public class Car {
+
+}

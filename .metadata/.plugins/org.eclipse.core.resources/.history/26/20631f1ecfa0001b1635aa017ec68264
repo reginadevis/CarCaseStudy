@@ -1,0 +1,14 @@
+package com.casestudy.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.casestudy.repository.CarRepository;
+
+public class CarController {
+
+	@Autowired
+	CarRepository carRepository;
+	
+	
+	
+}

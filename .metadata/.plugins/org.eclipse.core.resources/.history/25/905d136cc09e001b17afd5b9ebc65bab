@@ -1,0 +1,17 @@
+package com.casestudy.repository;
+
+import javax.persistence.EntityManager;
+import org.springframework.data.jpa.repository.support.SimpleJpaRepository;
+import org.springframework.data.rest.core.annotation.RepositoryRestResource;
+
+import com.cases.entity.Car;
+
+@RepositoryRestResource
+public class CarRepository extends PagingAndSortingRepository{
+
+	public CarRepository(Class<Car> domainClass, EntityManager em) {
+		super(domainClass, em);
+		// TODO Auto-generated constructor stub
+	}
+
+}
