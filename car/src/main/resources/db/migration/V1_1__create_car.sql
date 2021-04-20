@@ -5,7 +5,7 @@ CREATE TABLE IF NOT EXISTS `car` (
     `model` varchar(50),
     `year` int,
     `color` varchar(50),
-    `vin` int,
+    `vin` int UNIQUE,
     `miles` double
 
 )ENGINE=InnoDB DEFAULT CHARSET=UTF8;

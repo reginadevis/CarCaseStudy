@@ -1,0 +1,20 @@
+package com.casestudy.entity;
+
+import javax.persistence.Entity;
+
+import lombok.AccessLevel;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Entity(name = "car")
+@NoArgsConstructor
+@AllArgsConstructor
+@Data
+@Setter(AccessLevel.PUBLIC)
+@Getter(AccessLevel.PUBLIC)
+public class Manufacturer {
+
+}

@@ -1,5 +1,7 @@
 package com.casestudy.dto;
 
+import javax.validation.constraints.NotNull;
+
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -14,10 +16,12 @@ import lombok.Setter;
 @AllArgsConstructor
 public class CarDto {
 
+	
 	Long ID;
 
 	String manufacturer;
 
+	@NotNull
 	String model;
 
 	Integer year;

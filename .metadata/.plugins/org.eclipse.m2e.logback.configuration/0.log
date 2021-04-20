@@ -7817,3 +7817,568 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact com.google.gu
 2021-04-20 16:38:50,561 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2021-04-20 16:38:50,561 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
 2021-04-20 16:38:50,562 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\car\car\src\test\resources
+2021-04-20 16:47:12,843 [Worker-55: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.casestudy:car:0.0.1-SNAPSHOT @ C:\workspace\car\car\pom.xml.
+2021-04-20 16:47:14,123 [Worker-55: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-validation/2.5.0-SNAPSHOT/spring-boot-starter-validation-2.5.0-20210420.105139-449.jar
+2021-04-20 16:47:14,490 [Worker-55: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-validation/2.5.0-SNAPSHOT/spring-boot-starter-validation-2.5.0-20210420.105139-449.jar
+2021-04-20 16:47:15,701 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 16:47:15,702 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 16:47:15,705 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-04-20 16:47:15,705 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-04-20 16:47:15,709 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 16:47:15,709 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 16:47:15,710 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\car\car\src\test\resources
+2021-04-20 16:47:18,844 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 16:47:18,853 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 16:47:18,854 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-04-20 16:47:18,872 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-04-20 16:47:18,879 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 16:47:18,879 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 16:47:18,879 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\car\car\src\test\resources
+2021-04-20 16:48:31,978 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 16:48:31,978 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 16:48:31,979 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-04-20 16:48:31,991 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-04-20 16:48:31,994 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 16:48:31,994 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 16:48:31,994 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\car\car\src\test\resources
+2021-04-20 16:48:44,265 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 16:48:44,266 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 16:48:44,267 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-04-20 16:48:44,288 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-04-20 16:48:44,294 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 16:48:44,294 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 16:48:44,294 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\car\car\src\test\resources
+2021-04-20 16:48:53,558 [Worker-59: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2021-04-20 16:48:53,933 [DefaultMetadataResolver-16-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-parent/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 16:48:54,023 [DefaultMetadataResolver-16-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/boot/spring-boot-starter-parent/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 16:48:54,297 [DefaultMetadataResolver-16-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-parent/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 16:48:54,582 [Worker-59: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-parent/2.5.0-SNAPSHOT/spring-boot-starter-parent-2.5.0-20210420.105139-449.pom
+2021-04-20 16:48:54,906 [Worker-59: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-parent/2.5.0-SNAPSHOT/spring-boot-starter-parent-2.5.0-20210420.105139-449.pom
+2021-04-20 16:48:55,198 [DefaultMetadataResolver-17-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/boot/spring-boot-dependencies/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 16:48:55,204 [DefaultMetadataResolver-17-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-dependencies/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 16:48:55,535 [DefaultMetadataResolver-17-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-dependencies/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 16:48:55,802 [Worker-59: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-dependencies/2.5.0-SNAPSHOT/spring-boot-dependencies-2.5.0-20210420.105139-449.pom
+2021-04-20 16:48:56,385 [Worker-59: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-dependencies/2.5.0-SNAPSHOT/spring-boot-dependencies-2.5.0-20210420.105139-449.pom
+2021-04-20 16:48:57,284 [DefaultMetadataResolver-18-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/boot/spring-boot-maven-plugin/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 16:48:57,284 [DefaultMetadataResolver-18-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-maven-plugin/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 16:48:57,613 [DefaultMetadataResolver-18-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-maven-plugin/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 16:48:57,908 [Worker-59: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-maven-plugin/2.5.0-SNAPSHOT/spring-boot-maven-plugin-2.5.0-20210420.105139-449.jar
+2021-04-20 16:48:58,618 [Worker-59: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-maven-plugin/2.5.0-SNAPSHOT/spring-boot-maven-plugin-2.5.0-20210420.105139-449.jar
+2021-04-20 16:48:59,198 [Worker-59: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.casestudy:car:0.0.1-SNAPSHOT @ C:\workspace\car\car\pom.xml.
+2021-04-20 16:48:59,468 [DefaultMetadataResolver-19-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/boot/spring-boot-starter-data-jpa/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 16:48:59,473 [DefaultMetadataResolver-19-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-data-jpa/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 16:48:59,844 [DefaultMetadataResolver-19-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-data-jpa/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 16:49:00,121 [Worker-59: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/boot/spring-boot-starter-data-jpa/2.5.0-SNAPSHOT/spring-boot-starter-data-jpa-2.5.0-20210420.105139-449.pom
+2021-04-20 16:49:00,412 [Worker-59: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-data-jpa/2.5.0-SNAPSHOT/spring-boot-starter-data-jpa-2.5.0-20210420.105139-449.pom
+2021-04-20 16:49:00,736 [Worker-59: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-data-jpa/2.5.0-SNAPSHOT/spring-boot-starter-data-jpa-2.5.0-20210420.105139-449.pom
+2021-04-20 16:49:01,007 [DefaultMetadataResolver-20-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/boot/spring-boot-starter-aop/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 16:49:01,033 [DefaultMetadataResolver-20-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-aop/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 16:49:01,372 [DefaultMetadataResolver-20-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-aop/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 16:49:01,648 [Worker-59: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/boot/spring-boot-starter-aop/2.5.0-SNAPSHOT/spring-boot-starter-aop-2.5.0-20210420.105139-449.pom
+2021-04-20 16:49:01,942 [Worker-59: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-aop/2.5.0-SNAPSHOT/spring-boot-starter-aop-2.5.0-20210420.105139-449.pom
+2021-04-20 16:49:02,280 [Worker-59: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-aop/2.5.0-SNAPSHOT/spring-boot-starter-aop-2.5.0-20210420.105139-449.pom
+2021-04-20 16:49:02,548 [DefaultMetadataResolver-21-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/boot/spring-boot-starter/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 16:49:02,585 [DefaultMetadataResolver-21-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 16:49:02,910 [DefaultMetadataResolver-21-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 16:49:03,181 [Worker-59: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/boot/spring-boot-starter/2.5.0-SNAPSHOT/spring-boot-starter-2.5.0-20210420.105139-449.pom
+2021-04-20 16:49:03,483 [Worker-59: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter/2.5.0-SNAPSHOT/spring-boot-starter-2.5.0-20210420.105139-449.pom
+2021-04-20 16:49:03,792 [Worker-59: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter/2.5.0-SNAPSHOT/spring-boot-starter-2.5.0-20210420.105139-449.pom
+2021-04-20 16:49:04,076 [DefaultMetadataResolver-22-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/boot/spring-boot/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 16:49:04,095 [DefaultMetadataResolver-22-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 16:49:04,423 [DefaultMetadataResolver-22-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 16:49:04,691 [Worker-59: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/boot/spring-boot/2.5.0-SNAPSHOT/spring-boot-2.5.0-20210420.105139-449.pom
+2021-04-20 16:49:04,985 [Worker-59: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot/2.5.0-SNAPSHOT/spring-boot-2.5.0-20210420.105139-449.pom
+2021-04-20 16:49:05,338 [Worker-59: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot/2.5.0-SNAPSHOT/spring-boot-2.5.0-20210420.105139-449.pom
+2021-04-20 16:49:05,617 [DefaultMetadataResolver-23-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-autoconfigure/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 16:49:05,647 [DefaultMetadataResolver-23-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/boot/spring-boot-autoconfigure/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 16:49:05,953 [DefaultMetadataResolver-23-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-autoconfigure/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 16:49:06,224 [Worker-59: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/boot/spring-boot-autoconfigure/2.5.0-SNAPSHOT/spring-boot-autoconfigure-2.5.0-20210420.105139-449.pom
+2021-04-20 16:49:06,520 [Worker-59: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-autoconfigure/2.5.0-SNAPSHOT/spring-boot-autoconfigure-2.5.0-20210420.105139-449.pom
+2021-04-20 16:49:06,840 [Worker-59: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-autoconfigure/2.5.0-SNAPSHOT/spring-boot-autoconfigure-2.5.0-20210420.105139-449.pom
+2021-04-20 16:49:07,112 [DefaultMetadataResolver-24-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/boot/spring-boot-starter-logging/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 16:49:07,153 [DefaultMetadataResolver-24-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-logging/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 16:49:07,470 [DefaultMetadataResolver-24-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-logging/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 16:49:07,735 [Worker-59: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/boot/spring-boot-starter-logging/2.5.0-SNAPSHOT/spring-boot-starter-logging-2.5.0-20210420.105139-449.pom
+2021-04-20 16:49:08,030 [Worker-59: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-logging/2.5.0-SNAPSHOT/spring-boot-starter-logging-2.5.0-20210420.105139-449.pom
+2021-04-20 16:49:08,342 [Worker-59: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-logging/2.5.0-SNAPSHOT/spring-boot-starter-logging-2.5.0-20210420.105139-449.pom
+2021-04-20 16:49:08,638 [DefaultMetadataResolver-25-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/boot/spring-boot-starter-jdbc/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 16:49:08,652 [DefaultMetadataResolver-25-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-jdbc/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 16:49:08,986 [DefaultMetadataResolver-25-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-jdbc/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 16:49:09,254 [Worker-59: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/boot/spring-boot-starter-jdbc/2.5.0-SNAPSHOT/spring-boot-starter-jdbc-2.5.0-20210420.105139-449.pom
+2021-04-20 16:49:09,545 [Worker-59: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-jdbc/2.5.0-SNAPSHOT/spring-boot-starter-jdbc-2.5.0-20210420.105139-449.pom
+2021-04-20 16:49:09,876 [Worker-59: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-jdbc/2.5.0-SNAPSHOT/spring-boot-starter-jdbc-2.5.0-20210420.105139-449.pom
+2021-04-20 16:49:10,248 [DefaultMetadataResolver-26-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/boot/spring-boot-starter-validation/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 16:49:10,251 [DefaultMetadataResolver-26-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-validation/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 16:49:10,595 [DefaultMetadataResolver-26-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-validation/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 16:49:10,887 [DefaultMetadataResolver-27-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/boot/spring-boot-starter-data-rest/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 16:49:10,917 [DefaultMetadataResolver-27-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-data-rest/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 16:49:11,210 [DefaultMetadataResolver-27-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-data-rest/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 16:49:11,474 [Worker-59: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/boot/spring-boot-starter-data-rest/2.5.0-SNAPSHOT/spring-boot-starter-data-rest-2.5.0-20210420.105139-449.pom
+2021-04-20 16:49:11,746 [Worker-59: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-data-rest/2.5.0-SNAPSHOT/spring-boot-starter-data-rest-2.5.0-20210420.105139-449.pom
+2021-04-20 16:49:12,071 [Worker-59: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-data-rest/2.5.0-SNAPSHOT/spring-boot-starter-data-rest-2.5.0-20210420.105139-449.pom
+2021-04-20 16:49:12,348 [DefaultMetadataResolver-28-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/boot/spring-boot-starter-web/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 16:49:12,358 [DefaultMetadataResolver-28-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-web/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 16:49:12,675 [DefaultMetadataResolver-28-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-web/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 16:49:12,944 [Worker-59: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/boot/spring-boot-starter-web/2.5.0-SNAPSHOT/spring-boot-starter-web-2.5.0-20210420.105139-449.pom
+2021-04-20 16:49:13,239 [Worker-59: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-web/2.5.0-SNAPSHOT/spring-boot-starter-web-2.5.0-20210420.105139-449.pom
+2021-04-20 16:49:13,554 [Worker-59: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-web/2.5.0-SNAPSHOT/spring-boot-starter-web-2.5.0-20210420.105139-449.pom
+2021-04-20 16:49:13,828 [DefaultMetadataResolver-29-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/boot/spring-boot-starter-json/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 16:49:13,855 [DefaultMetadataResolver-29-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-json/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 16:49:14,171 [DefaultMetadataResolver-29-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-json/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 16:49:14,438 [Worker-59: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/boot/spring-boot-starter-json/2.5.0-SNAPSHOT/spring-boot-starter-json-2.5.0-20210420.105139-449.pom
+2021-04-20 16:49:14,725 [Worker-59: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-json/2.5.0-SNAPSHOT/spring-boot-starter-json-2.5.0-20210420.105139-449.pom
+2021-04-20 16:49:15,040 [Worker-59: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-json/2.5.0-SNAPSHOT/spring-boot-starter-json-2.5.0-20210420.105139-449.pom
+2021-04-20 16:49:15,345 [DefaultMetadataResolver-30-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/boot/spring-boot-starter-tomcat/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 16:49:15,371 [DefaultMetadataResolver-30-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-tomcat/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 16:49:15,723 [DefaultMetadataResolver-30-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-tomcat/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 16:49:15,992 [Worker-59: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/boot/spring-boot-starter-tomcat/2.5.0-SNAPSHOT/spring-boot-starter-tomcat-2.5.0-20210420.105139-449.pom
+2021-04-20 16:49:16,283 [Worker-59: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-tomcat/2.5.0-SNAPSHOT/spring-boot-starter-tomcat-2.5.0-20210420.105139-449.pom
+2021-04-20 16:49:16,623 [Worker-59: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-tomcat/2.5.0-SNAPSHOT/spring-boot-starter-tomcat-2.5.0-20210420.105139-449.pom
+2021-04-20 16:49:16,924 [DefaultMetadataResolver-31-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/boot/spring-boot-devtools/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 16:49:16,933 [DefaultMetadataResolver-31-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-devtools/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 16:49:17,252 [DefaultMetadataResolver-31-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-devtools/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 16:49:17,533 [Worker-59: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/boot/spring-boot-devtools/2.5.0-SNAPSHOT/spring-boot-devtools-2.5.0-20210420.105139-449.pom
+2021-04-20 16:49:17,825 [Worker-59: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-devtools/2.5.0-SNAPSHOT/spring-boot-devtools-2.5.0-20210420.105139-449.pom
+2021-04-20 16:49:18,160 [Worker-59: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-devtools/2.5.0-SNAPSHOT/spring-boot-devtools-2.5.0-20210420.105139-449.pom
+2021-04-20 16:49:18,510 [AetherRepositoryConnector-repo.spring.io-32-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-aop/2.5.0-SNAPSHOT/spring-boot-starter-aop-2.5.0-20210420.105139-449.jar
+2021-04-20 16:49:18,531 [AetherRepositoryConnector-repo.spring.io-32-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-jdbc/2.5.0-SNAPSHOT/spring-boot-starter-jdbc-2.5.0-20210420.105139-449.jar
+2021-04-20 16:49:18,533 [AetherRepositoryConnector-repo.spring.io-32-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-data-jpa/2.5.0-SNAPSHOT/spring-boot-starter-data-jpa-2.5.0-20210420.105139-449.jar
+2021-04-20 16:49:18,536 [AetherRepositoryConnector-repo.spring.io-32-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-logging/2.5.0-SNAPSHOT/spring-boot-starter-logging-2.5.0-20210420.105139-449.jar
+2021-04-20 16:49:18,566 [AetherRepositoryConnector-repo.spring.io-32-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter/2.5.0-SNAPSHOT/spring-boot-starter-2.5.0-20210420.105139-449.jar
+2021-04-20 16:49:18,874 [AetherRepositoryConnector-repo.spring.io-32-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-jdbc/2.5.0-SNAPSHOT/spring-boot-starter-jdbc-2.5.0-20210420.105139-449.jar
+2021-04-20 16:49:18,909 [AetherRepositoryConnector-repo.spring.io-32-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-logging/2.5.0-SNAPSHOT/spring-boot-starter-logging-2.5.0-20210420.105139-449.jar
+2021-04-20 16:49:18,923 [AetherRepositoryConnector-repo.spring.io-32-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-data-jpa/2.5.0-SNAPSHOT/spring-boot-starter-data-jpa-2.5.0-20210420.105139-449.jar
+2021-04-20 16:49:18,924 [AetherRepositoryConnector-repo.spring.io-32-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter/2.5.0-SNAPSHOT/spring-boot-starter-2.5.0-20210420.105139-449.jar
+2021-04-20 16:49:18,933 [AetherRepositoryConnector-repo.spring.io-32-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-aop/2.5.0-SNAPSHOT/spring-boot-starter-aop-2.5.0-20210420.105139-449.jar
+2021-04-20 16:49:19,144 [AetherRepositoryConnector-repo.spring.io-32-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-data-rest/2.5.0-SNAPSHOT/spring-boot-starter-data-rest-2.5.0-20210420.105139-449.jar
+2021-04-20 16:49:19,173 [AetherRepositoryConnector-repo.spring.io-32-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-web/2.5.0-SNAPSHOT/spring-boot-starter-web-2.5.0-20210420.105139-449.jar
+2021-04-20 16:49:19,192 [AetherRepositoryConnector-repo.spring.io-32-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-json/2.5.0-SNAPSHOT/spring-boot-starter-json-2.5.0-20210420.105139-449.jar
+2021-04-20 16:49:19,193 [AetherRepositoryConnector-repo.spring.io-32-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-tomcat/2.5.0-SNAPSHOT/spring-boot-starter-tomcat-2.5.0-20210420.105139-449.jar
+2021-04-20 16:49:19,221 [AetherRepositoryConnector-repo.spring.io-32-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-devtools/2.5.0-SNAPSHOT/spring-boot-devtools-2.5.0-20210420.105139-449.jar
+2021-04-20 16:49:19,520 [AetherRepositoryConnector-repo.spring.io-32-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-tomcat/2.5.0-SNAPSHOT/spring-boot-starter-tomcat-2.5.0-20210420.105139-449.jar
+2021-04-20 16:49:19,520 [AetherRepositoryConnector-repo.spring.io-32-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-data-rest/2.5.0-SNAPSHOT/spring-boot-starter-data-rest-2.5.0-20210420.105139-449.jar
+2021-04-20 16:49:19,524 [AetherRepositoryConnector-repo.spring.io-32-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-json/2.5.0-SNAPSHOT/spring-boot-starter-json-2.5.0-20210420.105139-449.jar
+2021-04-20 16:49:19,525 [AetherRepositoryConnector-repo.spring.io-32-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-web/2.5.0-SNAPSHOT/spring-boot-starter-web-2.5.0-20210420.105139-449.jar
+2021-04-20 16:49:19,786 [AetherRepositoryConnector-repo.spring.io-32-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot/2.5.0-SNAPSHOT/spring-boot-2.5.0-20210420.105139-449.jar
+2021-04-20 16:49:19,805 [AetherRepositoryConnector-repo.spring.io-32-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-autoconfigure/2.5.0-SNAPSHOT/spring-boot-autoconfigure-2.5.0-20210420.105139-449.jar
+2021-04-20 16:49:19,933 [AetherRepositoryConnector-repo.spring.io-32-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-devtools/2.5.0-SNAPSHOT/spring-boot-devtools-2.5.0-20210420.105139-449.jar
+2021-04-20 16:49:21,152 [AetherRepositoryConnector-repo.spring.io-32-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot/2.5.0-SNAPSHOT/spring-boot-2.5.0-20210420.105139-449.jar
+2021-04-20 16:49:21,478 [AetherRepositoryConnector-repo.spring.io-32-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-autoconfigure/2.5.0-SNAPSHOT/spring-boot-autoconfigure-2.5.0-20210420.105139-449.jar
+2021-04-20 16:49:25,147 [Worker-59: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /car/src/main/java
+2021-04-20 16:49:25,147 [Worker-59: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /car/src/main/resources
+2021-04-20 16:49:25,147 [Worker-59: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /car/src/main/resources
+2021-04-20 16:49:25,148 [Worker-59: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /car/src/test/java
+2021-04-20 16:49:25,633 [Worker-59: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 32 sec
+2021-04-20 16:49:27,638 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 16:49:27,638 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 16:49:27,639 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-04-20 16:49:27,654 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-04-20 16:49:27,662 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 16:49:27,662 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 16:49:27,662 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\car\car\src\test\resources
+2021-04-20 16:49:38,234 [Worker-59: Launching Executing clean in C__workspace_car_car] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\workspace\car\car
+2021-04-20 16:49:38,235 [Worker-59: Launching Executing clean in C__workspace_car_car] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B clean -Dstyle.color=always
+2021-04-20 16:49:45,828 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 16:49:45,829 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 16:49:45,830 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-04-20 16:49:45,834 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-04-20 16:49:45,841 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 16:49:45,841 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 16:49:45,841 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\car\car\src\test\resources
+2021-04-20 16:49:57,862 [Worker-57: Launching Executing install in C__workspace_car_car] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\workspace\car\car
+2021-04-20 16:49:57,862 [Worker-57: Launching Executing install in C__workspace_car_car] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B install -Dstyle.color=always
+2021-04-20 16:50:10,152 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 16:50:10,152 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 16:50:10,153 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-04-20 16:50:10,161 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-04-20 16:50:10,163 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 16:50:10,164 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 16:50:10,164 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\car\car\src\test\resources
+2021-04-20 16:50:33,998 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 16:50:33,999 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 16:50:34,000 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-04-20 16:50:34,010 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-04-20 16:50:34,013 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 16:50:34,013 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 16:50:34,013 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\car\car\src\test\resources
+2021-04-20 16:55:53,387 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 16:55:53,388 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 16:55:53,388 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-04-20 16:55:53,389 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-04-20 16:55:53,396 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 16:55:53,396 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 16:55:53,396 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\car\car\src\test\resources
+2021-04-20 16:58:40,275 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 16:58:40,276 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 16:58:40,276 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-04-20 16:58:40,277 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-04-20 16:58:40,282 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 16:58:40,283 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 16:58:40,283 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\car\car\src\test\resources
+2021-04-20 17:01:12,327 [Worker-61: Launching Executing clean in C__workspace_car_car] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\workspace\car\car
+2021-04-20 17:01:12,328 [Worker-61: Launching Executing clean in C__workspace_car_car] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B clean -Dstyle.color=always
+2021-04-20 17:01:16,495 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 17:01:16,495 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 17:01:16,497 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-04-20 17:01:16,501 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-04-20 17:01:16,535 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 17:01:16,536 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 17:01:16,536 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\car\car\src\test\resources
+2021-04-20 17:01:25,804 [Worker-61: Launching Executing install in C__workspace_car_car] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\workspace\car\car
+2021-04-20 17:01:25,804 [Worker-61: Launching Executing install in C__workspace_car_car] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B install -Dstyle.color=always
+2021-04-20 17:01:39,374 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 17:01:39,374 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 17:01:39,375 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-04-20 17:01:39,386 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-04-20 17:01:39,391 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 17:01:39,391 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 17:01:39,392 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\car\car\src\test\resources
+2021-04-20 18:40:58,423 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 18:40:58,423 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 18:40:58,425 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-04-20 18:40:58,439 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-04-20 18:40:58,450 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 18:40:58,451 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 18:40:58,451 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\car\car\src\test\resources
+2021-04-20 18:41:08,426 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 18:41:08,426 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 18:41:08,429 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-04-20 18:41:08,441 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-04-20 18:41:08,445 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 18:41:08,445 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 18:41:08,445 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\car\car\src\test\resources
+2021-04-20 18:41:16,636 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 18:41:16,636 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 18:41:16,637 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-04-20 18:41:16,647 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-04-20 18:41:16,653 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 18:41:16,653 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 18:41:16,653 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\car\car\src\test\resources
+2021-04-20 18:41:27,990 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 18:41:27,990 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 18:41:27,992 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-04-20 18:41:28,001 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-04-20 18:41:28,005 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 18:41:28,005 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 18:41:28,005 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\car\car\src\test\resources
+2021-04-20 18:42:06,325 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 18:42:06,325 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 18:42:06,328 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-04-20 18:42:06,333 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-04-20 18:42:06,337 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 18:42:06,337 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 18:42:06,337 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\car\car\src\test\resources
+2021-04-20 18:42:25,305 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 18:42:25,305 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 18:42:25,307 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-04-20 18:42:25,313 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-04-20 18:42:25,316 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 18:42:25,316 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 18:42:25,316 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\car\car\src\test\resources
+2021-04-20 18:42:37,303 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 18:42:37,304 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 18:42:37,305 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-04-20 18:42:37,315 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-04-20 18:42:37,318 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 18:42:37,318 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 18:42:37,318 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\car\car\src\test\resources
+2021-04-20 18:42:59,567 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 18:42:59,567 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 18:42:59,569 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-04-20 18:42:59,576 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-04-20 18:42:59,582 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 18:42:59,582 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 18:42:59,582 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\car\car\src\test\resources
+2021-04-20 18:43:07,388 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 18:43:07,388 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 18:43:07,390 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-04-20 18:43:07,397 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-04-20 18:43:07,401 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 18:43:07,401 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 18:43:07,401 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\car\car\src\test\resources
+2021-04-20 18:43:20,436 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 18:43:20,437 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 18:43:20,437 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-04-20 18:43:20,438 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-04-20 18:43:20,442 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 18:43:20,442 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 18:43:20,443 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\car\car\src\test\resources
+2021-04-20 18:44:17,145 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 18:44:17,146 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 18:44:17,146 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-04-20 18:44:17,192 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-04-20 18:44:17,195 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 18:44:17,195 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 18:44:17,195 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\car\car\src\test\resources
+2021-04-20 18:48:00,534 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 18:48:00,535 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 18:48:00,537 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-04-20 18:48:00,550 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-04-20 18:48:00,557 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 18:48:00,557 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 18:48:00,557 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\car\car\src\test\resources
+2021-04-20 18:48:40,397 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 18:48:40,398 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 18:48:40,398 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-04-20 18:48:40,398 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-04-20 18:48:40,400 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 18:48:40,400 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 18:48:40,400 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\car\car\src\test\resources
+2021-04-20 19:31:32,575 [Worker-83: Launching Executing clean in C__workspace_car_car] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\workspace\car\car
+2021-04-20 19:31:32,576 [Worker-83: Launching Executing clean in C__workspace_car_car] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B clean -Dstyle.color=always
+2021-04-20 19:31:35,795 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 19:31:35,795 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 19:31:35,798 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-04-20 19:31:35,801 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-04-20 19:31:35,812 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 19:31:35,812 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 19:31:35,812 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\car\car\src\test\resources
+2021-04-20 19:31:41,872 [Worker-88: Launching Executing install in C__workspace_car_car] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\workspace\car\car
+2021-04-20 19:31:41,873 [Worker-88: Launching Executing install in C__workspace_car_car] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B install -Dstyle.color=always
+2021-04-20 19:31:54,782 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 19:31:54,782 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 19:31:54,783 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-04-20 19:31:54,805 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-04-20 19:31:54,809 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 19:31:54,809 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 19:31:54,809 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\car\car\src\test\resources
+2021-04-20 19:46:55,576 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 19:46:55,576 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 19:46:55,578 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-04-20 19:46:55,586 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-04-20 19:46:55,595 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 19:46:55,595 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 19:46:55,595 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\car\car\src\test\resources
+2021-04-20 20:06:57,673 [Worker-93: Launching Executing clean in C__workspace_car_car] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\workspace\car\car
+2021-04-20 20:06:57,674 [Worker-93: Launching Executing clean in C__workspace_car_car] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B clean -Dstyle.color=always
+2021-04-20 20:07:00,991 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 20:07:00,991 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 20:07:00,992 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-04-20 20:07:00,996 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-04-20 20:07:01,005 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 20:07:01,005 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 20:07:01,005 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\car\car\src\test\resources
+2021-04-20 20:07:12,974 [Worker-93: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2021-04-20 20:07:13,335 [DefaultMetadataResolver-33-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/boot/spring-boot-starter-parent/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 20:07:13,341 [DefaultMetadataResolver-33-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-parent/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 20:07:13,699 [DefaultMetadataResolver-33-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-parent/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 20:07:14,013 [Worker-93: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-parent/2.5.0-SNAPSHOT/spring-boot-starter-parent-2.5.0-20210420.132245-450.pom
+2021-04-20 20:07:14,384 [Worker-93: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-parent/2.5.0-SNAPSHOT/spring-boot-starter-parent-2.5.0-20210420.132245-450.pom
+2021-04-20 20:07:14,693 [DefaultMetadataResolver-34-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/boot/spring-boot-dependencies/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 20:07:14,707 [DefaultMetadataResolver-34-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-dependencies/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 20:07:15,061 [DefaultMetadataResolver-34-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-dependencies/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 20:07:15,425 [Worker-93: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-dependencies/2.5.0-SNAPSHOT/spring-boot-dependencies-2.5.0-20210420.132245-450.pom
+2021-04-20 20:07:16,184 [Worker-93: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-dependencies/2.5.0-SNAPSHOT/spring-boot-dependencies-2.5.0-20210420.132245-450.pom
+2021-04-20 20:07:17,228 [DefaultMetadataResolver-35-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/boot/spring-boot-maven-plugin/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 20:07:17,238 [DefaultMetadataResolver-35-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-maven-plugin/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 20:07:17,562 [DefaultMetadataResolver-35-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-maven-plugin/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 20:07:17,842 [Worker-93: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-maven-plugin/2.5.0-SNAPSHOT/spring-boot-maven-plugin-2.5.0-20210420.132245-450.jar
+2021-04-20 20:07:18,581 [Worker-93: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-maven-plugin/2.5.0-SNAPSHOT/spring-boot-maven-plugin-2.5.0-20210420.132245-450.jar
+2021-04-20 20:07:19,838 [Worker-93: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.casestudy:car:0.0.1-SNAPSHOT @ C:\workspace\car\car\pom.xml.
+2021-04-20 20:07:20,107 [DefaultMetadataResolver-36-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/boot/spring-boot-starter-data-jpa/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 20:07:20,112 [DefaultMetadataResolver-36-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-data-jpa/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 20:07:20,425 [DefaultMetadataResolver-36-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-data-jpa/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 20:07:20,710 [Worker-93: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/boot/spring-boot-starter-data-jpa/2.5.0-SNAPSHOT/spring-boot-starter-data-jpa-2.5.0-20210420.132245-450.pom
+2021-04-20 20:07:20,997 [Worker-93: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-data-jpa/2.5.0-SNAPSHOT/spring-boot-starter-data-jpa-2.5.0-20210420.132245-450.pom
+2021-04-20 20:07:21,308 [Worker-93: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-data-jpa/2.5.0-SNAPSHOT/spring-boot-starter-data-jpa-2.5.0-20210420.132245-450.pom
+2021-04-20 20:07:21,592 [DefaultMetadataResolver-37-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/boot/spring-boot-starter-aop/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 20:07:21,606 [DefaultMetadataResolver-37-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-aop/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 20:07:21,921 [DefaultMetadataResolver-37-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-aop/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 20:07:22,209 [Worker-93: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/boot/spring-boot-starter-aop/2.5.0-SNAPSHOT/spring-boot-starter-aop-2.5.0-20210420.132245-450.pom
+2021-04-20 20:07:22,517 [Worker-93: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-aop/2.5.0-SNAPSHOT/spring-boot-starter-aop-2.5.0-20210420.132245-450.pom
+2021-04-20 20:07:22,836 [Worker-93: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-aop/2.5.0-SNAPSHOT/spring-boot-starter-aop-2.5.0-20210420.132245-450.pom
+2021-04-20 20:07:23,126 [DefaultMetadataResolver-38-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/boot/spring-boot-starter/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 20:07:23,141 [DefaultMetadataResolver-38-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 20:07:23,470 [DefaultMetadataResolver-38-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 20:07:23,764 [Worker-93: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/boot/spring-boot-starter/2.5.0-SNAPSHOT/spring-boot-starter-2.5.0-20210420.132245-450.pom
+2021-04-20 20:07:24,077 [Worker-93: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter/2.5.0-SNAPSHOT/spring-boot-starter-2.5.0-20210420.132245-450.pom
+2021-04-20 20:07:24,376 [Worker-93: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter/2.5.0-SNAPSHOT/spring-boot-starter-2.5.0-20210420.132245-450.pom
+2021-04-20 20:07:24,669 [DefaultMetadataResolver-39-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/boot/spring-boot/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 20:07:24,676 [DefaultMetadataResolver-39-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 20:07:25,010 [DefaultMetadataResolver-39-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 20:07:25,300 [Worker-93: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/boot/spring-boot/2.5.0-SNAPSHOT/spring-boot-2.5.0-20210420.132245-450.pom
+2021-04-20 20:07:25,592 [Worker-93: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot/2.5.0-SNAPSHOT/spring-boot-2.5.0-20210420.132245-450.pom
+2021-04-20 20:07:25,896 [Worker-93: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot/2.5.0-SNAPSHOT/spring-boot-2.5.0-20210420.132245-450.pom
+2021-04-20 20:07:26,219 [DefaultMetadataResolver-40-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/boot/spring-boot-autoconfigure/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 20:07:26,227 [DefaultMetadataResolver-40-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-autoconfigure/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 20:07:26,549 [DefaultMetadataResolver-40-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-autoconfigure/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 20:07:27,074 [Worker-93: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/boot/spring-boot-autoconfigure/2.5.0-SNAPSHOT/spring-boot-autoconfigure-2.5.0-20210420.132245-450.pom
+2021-04-20 20:07:27,645 [Worker-93: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-autoconfigure/2.5.0-SNAPSHOT/spring-boot-autoconfigure-2.5.0-20210420.132245-450.pom
+2021-04-20 20:07:27,967 [Worker-93: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-autoconfigure/2.5.0-SNAPSHOT/spring-boot-autoconfigure-2.5.0-20210420.132245-450.pom
+2021-04-20 20:07:28,278 [DefaultMetadataResolver-41-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-logging/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 20:07:28,295 [DefaultMetadataResolver-41-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/boot/spring-boot-starter-logging/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 20:07:28,625 [DefaultMetadataResolver-41-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-logging/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 20:07:29,216 [Worker-93: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/boot/spring-boot-starter-logging/2.5.0-SNAPSHOT/spring-boot-starter-logging-2.5.0-20210420.132245-450.pom
+2021-04-20 20:07:29,786 [Worker-93: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-logging/2.5.0-SNAPSHOT/spring-boot-starter-logging-2.5.0-20210420.132245-450.pom
+2021-04-20 20:07:30,142 [Worker-93: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-logging/2.5.0-SNAPSHOT/spring-boot-starter-logging-2.5.0-20210420.132245-450.pom
+2021-04-20 20:07:30,738 [DefaultMetadataResolver-42-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-jdbc/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 20:07:30,741 [DefaultMetadataResolver-42-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/boot/spring-boot-starter-jdbc/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 20:07:31,205 [DefaultMetadataResolver-42-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-jdbc/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 20:07:31,499 [Worker-93: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/boot/spring-boot-starter-jdbc/2.5.0-SNAPSHOT/spring-boot-starter-jdbc-2.5.0-20210420.132245-450.pom
+2021-04-20 20:07:31,831 [Worker-93: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-jdbc/2.5.0-SNAPSHOT/spring-boot-starter-jdbc-2.5.0-20210420.132245-450.pom
+2021-04-20 20:07:32,120 [Worker-93: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-jdbc/2.5.0-SNAPSHOT/spring-boot-starter-jdbc-2.5.0-20210420.132245-450.pom
+2021-04-20 20:07:32,588 [DefaultMetadataResolver-43-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/boot/spring-boot-starter-validation/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 20:07:32,598 [DefaultMetadataResolver-43-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-validation/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 20:07:32,951 [DefaultMetadataResolver-43-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-validation/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 20:07:33,229 [Worker-93: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/boot/spring-boot-starter-validation/2.5.0-SNAPSHOT/spring-boot-starter-validation-2.5.0-20210420.132245-450.pom
+2021-04-20 20:07:33,536 [Worker-93: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-validation/2.5.0-SNAPSHOT/spring-boot-starter-validation-2.5.0-20210420.132245-450.pom
+2021-04-20 20:07:33,828 [Worker-93: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-validation/2.5.0-SNAPSHOT/spring-boot-starter-validation-2.5.0-20210420.132245-450.pom
+2021-04-20 20:07:34,153 [DefaultMetadataResolver-44-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/boot/spring-boot-starter-data-rest/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 20:07:34,184 [DefaultMetadataResolver-44-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-data-rest/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 20:07:34,541 [DefaultMetadataResolver-44-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-data-rest/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 20:07:34,829 [Worker-93: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/boot/spring-boot-starter-data-rest/2.5.0-SNAPSHOT/spring-boot-starter-data-rest-2.5.0-20210420.132245-450.pom
+2021-04-20 20:07:35,124 [Worker-93: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-data-rest/2.5.0-SNAPSHOT/spring-boot-starter-data-rest-2.5.0-20210420.132245-450.pom
+2021-04-20 20:07:35,525 [Worker-93: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-data-rest/2.5.0-SNAPSHOT/spring-boot-starter-data-rest-2.5.0-20210420.132245-450.pom
+2021-04-20 20:07:35,817 [DefaultMetadataResolver-45-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/boot/spring-boot-starter-web/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 20:07:35,831 [DefaultMetadataResolver-45-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-web/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 20:07:36,173 [DefaultMetadataResolver-45-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-web/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 20:07:36,468 [Worker-93: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/boot/spring-boot-starter-web/2.5.0-SNAPSHOT/spring-boot-starter-web-2.5.0-20210420.132245-450.pom
+2021-04-20 20:07:36,768 [Worker-93: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-web/2.5.0-SNAPSHOT/spring-boot-starter-web-2.5.0-20210420.132245-450.pom
+2021-04-20 20:07:37,056 [Worker-93: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-web/2.5.0-SNAPSHOT/spring-boot-starter-web-2.5.0-20210420.132245-450.pom
+2021-04-20 20:07:37,344 [DefaultMetadataResolver-46-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/boot/spring-boot-starter-json/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 20:07:37,352 [DefaultMetadataResolver-46-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-json/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 20:07:37,680 [DefaultMetadataResolver-46-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-json/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 20:07:37,978 [Worker-93: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/boot/spring-boot-starter-json/2.5.0-SNAPSHOT/spring-boot-starter-json-2.5.0-20210420.132245-450.pom
+2021-04-20 20:07:38,270 [Worker-93: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-json/2.5.0-SNAPSHOT/spring-boot-starter-json-2.5.0-20210420.132245-450.pom
+2021-04-20 20:07:38,596 [Worker-93: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-json/2.5.0-SNAPSHOT/spring-boot-starter-json-2.5.0-20210420.132245-450.pom
+2021-04-20 20:07:38,949 [DefaultMetadataResolver-47-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/boot/spring-boot-starter-tomcat/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 20:07:38,960 [DefaultMetadataResolver-47-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-tomcat/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 20:07:39,288 [DefaultMetadataResolver-47-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-tomcat/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 20:07:39,594 [Worker-93: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/boot/spring-boot-starter-tomcat/2.5.0-SNAPSHOT/spring-boot-starter-tomcat-2.5.0-20210420.132245-450.pom
+2021-04-20 20:07:39,909 [Worker-93: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-tomcat/2.5.0-SNAPSHOT/spring-boot-starter-tomcat-2.5.0-20210420.132245-450.pom
+2021-04-20 20:07:40,216 [Worker-93: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-tomcat/2.5.0-SNAPSHOT/spring-boot-starter-tomcat-2.5.0-20210420.132245-450.pom
+2021-04-20 20:07:40,589 [DefaultMetadataResolver-48-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/boot/spring-boot-devtools/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 20:07:40,599 [DefaultMetadataResolver-48-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-devtools/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 20:07:40,964 [DefaultMetadataResolver-48-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-devtools/2.5.0-SNAPSHOT/maven-metadata.xml
+2021-04-20 20:07:41,247 [Worker-93: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/boot/spring-boot-devtools/2.5.0-SNAPSHOT/spring-boot-devtools-2.5.0-20210420.132245-450.pom
+2021-04-20 20:07:41,684 [Worker-93: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-devtools/2.5.0-SNAPSHOT/spring-boot-devtools-2.5.0-20210420.132245-450.pom
+2021-04-20 20:07:42,007 [Worker-93: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-devtools/2.5.0-SNAPSHOT/spring-boot-devtools-2.5.0-20210420.132245-450.pom
+2021-04-20 20:07:42,550 [AetherRepositoryConnector-repo.spring.io-49-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-jdbc/2.5.0-SNAPSHOT/spring-boot-starter-jdbc-2.5.0-20210420.132245-450.jar
+2021-04-20 20:07:42,551 [AetherRepositoryConnector-repo.spring.io-49-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter/2.5.0-SNAPSHOT/spring-boot-starter-2.5.0-20210420.132245-450.jar
+2021-04-20 20:07:42,554 [AetherRepositoryConnector-repo.spring.io-49-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-data-jpa/2.5.0-SNAPSHOT/spring-boot-starter-data-jpa-2.5.0-20210420.132245-450.jar
+2021-04-20 20:07:42,558 [AetherRepositoryConnector-repo.spring.io-49-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-aop/2.5.0-SNAPSHOT/spring-boot-starter-aop-2.5.0-20210420.132245-450.jar
+2021-04-20 20:07:42,560 [AetherRepositoryConnector-repo.spring.io-49-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-validation/2.5.0-SNAPSHOT/spring-boot-starter-validation-2.5.0-20210420.132245-450.jar
+2021-04-20 20:07:42,964 [AetherRepositoryConnector-repo.spring.io-49-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-aop/2.5.0-SNAPSHOT/spring-boot-starter-aop-2.5.0-20210420.132245-450.jar
+2021-04-20 20:07:42,968 [AetherRepositoryConnector-repo.spring.io-49-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-data-jpa/2.5.0-SNAPSHOT/spring-boot-starter-data-jpa-2.5.0-20210420.132245-450.jar
+2021-04-20 20:07:42,968 [AetherRepositoryConnector-repo.spring.io-49-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter/2.5.0-SNAPSHOT/spring-boot-starter-2.5.0-20210420.132245-450.jar
+2021-04-20 20:07:42,980 [AetherRepositoryConnector-repo.spring.io-49-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-jdbc/2.5.0-SNAPSHOT/spring-boot-starter-jdbc-2.5.0-20210420.132245-450.jar
+2021-04-20 20:07:42,998 [AetherRepositoryConnector-repo.spring.io-49-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-validation/2.5.0-SNAPSHOT/spring-boot-starter-validation-2.5.0-20210420.132245-450.jar
+2021-04-20 20:07:43,238 [AetherRepositoryConnector-repo.spring.io-49-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-web/2.5.0-SNAPSHOT/spring-boot-starter-web-2.5.0-20210420.132245-450.jar
+2021-04-20 20:07:43,242 [AetherRepositoryConnector-repo.spring.io-49-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-logging/2.5.0-SNAPSHOT/spring-boot-starter-logging-2.5.0-20210420.132245-450.jar
+2021-04-20 20:07:43,250 [AetherRepositoryConnector-repo.spring.io-49-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-data-rest/2.5.0-SNAPSHOT/spring-boot-starter-data-rest-2.5.0-20210420.132245-450.jar
+2021-04-20 20:07:43,270 [AetherRepositoryConnector-repo.spring.io-49-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-tomcat/2.5.0-SNAPSHOT/spring-boot-starter-tomcat-2.5.0-20210420.132245-450.jar
+2021-04-20 20:07:43,280 [AetherRepositoryConnector-repo.spring.io-49-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-json/2.5.0-SNAPSHOT/spring-boot-starter-json-2.5.0-20210420.132245-450.jar
+2021-04-20 20:07:43,630 [AetherRepositoryConnector-repo.spring.io-49-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-data-rest/2.5.0-SNAPSHOT/spring-boot-starter-data-rest-2.5.0-20210420.132245-450.jar
+2021-04-20 20:07:43,631 [AetherRepositoryConnector-repo.spring.io-49-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-web/2.5.0-SNAPSHOT/spring-boot-starter-web-2.5.0-20210420.132245-450.jar
+2021-04-20 20:07:43,635 [AetherRepositoryConnector-repo.spring.io-49-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-tomcat/2.5.0-SNAPSHOT/spring-boot-starter-tomcat-2.5.0-20210420.132245-450.jar
+2021-04-20 20:07:43,638 [AetherRepositoryConnector-repo.spring.io-49-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-logging/2.5.0-SNAPSHOT/spring-boot-starter-logging-2.5.0-20210420.132245-450.jar
+2021-04-20 20:07:43,657 [AetherRepositoryConnector-repo.spring.io-49-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-json/2.5.0-SNAPSHOT/spring-boot-starter-json-2.5.0-20210420.132245-450.jar
+2021-04-20 20:07:43,895 [AetherRepositoryConnector-repo.spring.io-49-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot/2.5.0-SNAPSHOT/spring-boot-2.5.0-20210420.132245-450.jar
+2021-04-20 20:07:43,897 [AetherRepositoryConnector-repo.spring.io-49-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-devtools/2.5.0-SNAPSHOT/spring-boot-devtools-2.5.0-20210420.132245-450.jar
+2021-04-20 20:07:43,906 [AetherRepositoryConnector-repo.spring.io-49-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-autoconfigure/2.5.0-SNAPSHOT/spring-boot-autoconfigure-2.5.0-20210420.132245-450.jar
+2021-04-20 20:07:44,835 [AetherRepositoryConnector-repo.spring.io-49-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-devtools/2.5.0-SNAPSHOT/spring-boot-devtools-2.5.0-20210420.132245-450.jar
+2021-04-20 20:07:45,427 [AetherRepositoryConnector-repo.spring.io-49-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot/2.5.0-SNAPSHOT/spring-boot-2.5.0-20210420.132245-450.jar
+2021-04-20 20:07:45,814 [AetherRepositoryConnector-repo.spring.io-49-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-autoconfigure/2.5.0-SNAPSHOT/spring-boot-autoconfigure-2.5.0-20210420.132245-450.jar
+2021-04-20 20:07:53,697 [Worker-93: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /car/src/main/java
+2021-04-20 20:07:53,698 [Worker-93: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /car/src/main/resources
+2021-04-20 20:07:53,698 [Worker-93: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /car/src/main/resources
+2021-04-20 20:07:53,699 [Worker-93: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /car/src/test/java
+2021-04-20 20:07:54,396 [Worker-93: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 41 sec
+2021-04-20 20:07:57,045 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 20:07:57,046 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 20:07:57,046 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-04-20 20:07:57,073 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-04-20 20:07:57,092 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 20:07:57,092 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 20:07:57,093 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\car\car\src\test\resources
+2021-04-20 20:10:01,250 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 20:10:01,250 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 20:10:01,254 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-04-20 20:10:01,255 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-04-20 20:10:01,266 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 20:10:01,266 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 20:10:01,266 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\car\car\src\test\resources
+2021-04-20 20:11:25,888 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 20:11:25,888 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 20:11:25,889 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-04-20 20:11:25,889 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-04-20 20:11:25,893 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 20:11:25,893 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 20:11:25,893 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\car\car\src\test\resources
+2021-04-20 20:11:30,554 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 20:11:30,555 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 20:11:30,555 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-04-20 20:11:30,555 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-04-20 20:11:30,560 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 20:11:30,561 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 20:11:30,561 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\car\car\src\test\resources
+2021-04-20 20:14:12,258 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 20:14:12,258 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 20:14:12,259 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-04-20 20:14:12,259 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-04-20 20:14:12,265 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 20:14:12,265 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 20:14:12,266 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\car\car\src\test\resources
+2021-04-20 20:17:17,951 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 20:17:17,951 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 20:17:17,952 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-04-20 20:17:17,952 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-04-20 20:17:17,957 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 20:17:17,957 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 20:17:17,957 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\car\car\src\test\resources
+2021-04-20 20:17:28,300 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 20:17:28,300 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 20:17:28,301 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-04-20 20:17:28,301 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-04-20 20:17:28,306 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 20:17:28,306 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 20:17:28,306 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\car\car\src\test\resources
+2021-04-20 20:18:31,997 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 20:18:31,998 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 20:18:31,999 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-04-20 20:18:32,000 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-04-20 20:18:32,019 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 20:18:32,019 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 20:18:32,020 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\car\car\src\test\resources
+2021-04-20 20:18:51,836 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 20:18:51,836 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 20:18:51,837 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-04-20 20:18:51,837 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-04-20 20:18:51,845 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 20:18:51,845 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 20:18:51,845 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\car\car\src\test\resources
+2021-04-20 20:18:56,829 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 20:18:56,829 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 20:18:56,829 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-04-20 20:18:56,830 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-04-20 20:18:56,838 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 20:18:56,838 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 20:18:56,838 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\car\car\src\test\resources
+2021-04-20 20:21:15,813 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 20:21:15,815 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 20:21:15,815 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-04-20 20:21:15,816 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-04-20 20:21:15,832 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 20:21:15,832 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 20:21:15,832 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\car\car\src\test\resources
+2021-04-20 20:26:37,408 [Worker-113: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 20:26:37,409 [Worker-113: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 20:26:37,410 [Worker-113: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-04-20 20:26:37,411 [Worker-113: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-04-20 20:26:37,419 [Worker-113: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 20:26:37,419 [Worker-113: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 20:26:37,419 [Worker-113: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\car\car\src\test\resources
+2021-04-20 20:27:35,754 [Worker-107: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 20:27:35,754 [Worker-107: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 20:27:35,756 [Worker-107: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-04-20 20:27:35,756 [Worker-107: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-04-20 20:27:35,762 [Worker-107: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 20:27:35,762 [Worker-107: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 20:27:35,762 [Worker-107: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\car\car\src\test\resources
+2021-04-20 20:28:35,603 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 20:28:35,604 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 20:28:35,605 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-04-20 20:28:35,615 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-04-20 20:28:35,630 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-20 20:28:35,630 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-20 20:28:35,630 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\car\car\src\test\resources
