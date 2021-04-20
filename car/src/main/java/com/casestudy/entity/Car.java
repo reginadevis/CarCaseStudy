@@ -6,19 +6,24 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
+import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 @Entity(name="car")
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
+@Setter(AccessLevel.PUBLIC)
+@Getter(AccessLevel.PUBLIC)
 public class Car {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	Long id;
+	Long ID;
 	
 	@Column(name="manufacturer")
 	String manufacturer;
@@ -38,62 +43,6 @@ public class Car {
 	@Column(name="miles")
 	Double miles;
 
-	public Long getId() {
-		return id;
-	}
 
-	public void setId(Long id) {
-		this.id = id;
-	}
-
-	public String getManufacturer() {
-		return manufacturer;
-	}
-
-	public void setManufacturer(String manufacturer) {
-		this.manufacturer = manufacturer;
-	}
-
-	public String getModel() {
-		return model;
-	}
-
-	public void setModel(String model) {
-		this.model = model;
-	}
-
-	public Integer getYear() {
-		return year;
-	}
-
-	public void setYear(Integer year) {
-		this.year = year;
-	}
-
-	public String getColor() {
-		return color;
-	}
-
-	public void setColor(String color) {
-		this.color = color;
-	}
-
-	public Integer getVin() {
-		return vin;
-	}
-
-	public void setVin(Integer vin) {
-		this.vin = vin;
-	}
-
-	public Double getMiles() {
-		return miles;
-	}
-
-	public void setMiles(Double miles) {
-		this.miles = miles;
-	}
-
-	
 
 }

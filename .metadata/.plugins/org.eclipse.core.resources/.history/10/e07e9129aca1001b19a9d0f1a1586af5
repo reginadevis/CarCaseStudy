@@ -1,0 +1,26 @@
+package com.casestudy.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class CarDto {
+
+	Long id;
+	
+	String manufacturer;
+	
+	String model;
+	
+	Integer year;
+	
+	String color;
+	
+	Integer vin;
+	
+	Double miles;
+
+}

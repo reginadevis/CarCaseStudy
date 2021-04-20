@@ -1,0 +1,15 @@
+package com.casestudy.mapper;
+
+import org.mapstruct.Mapper;
+
+import com.casestudy.dto.CarDto;
+import com.casestudy.entity.Car;
+
+@Mapper
+public interface CarMapper {
+	
+	Car carToCarDto(Car car);
+	
+	CarDto carDtotoCar(CarDto carDto);
+
+}

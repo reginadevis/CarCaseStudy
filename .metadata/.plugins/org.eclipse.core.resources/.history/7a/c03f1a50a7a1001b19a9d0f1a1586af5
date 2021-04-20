@@ -1,0 +1,18 @@
+package com.casestudy.mapper;
+
+import org.mapstruct.Mapper;
+import org.mapstruct.factory.Mappers;
+
+import com.casestudy.dto.CarDto;
+import com.casestudy.entity.Car;
+
+@Mapper
+public interface CarMapper {
+	
+	CarMapper INSTANCE = Mappers.getMapper(CarMapper.class);
+	
+	Car carToCarDto(Car car);
+	
+	Car carDtotoCar(CarDto carDto);
+
+}

@@ -1,0 +1,21 @@
+package com.casestudy.dto;
+
+import javax.persistence.Column;
+
+public class CarDto {
+
+	Long id;
+	
+	String manufacturer;
+	
+	String model;
+	
+	Integer year;
+	
+	String color;
+	
+	Integer vin;
+	
+	Double miles;
+
+}

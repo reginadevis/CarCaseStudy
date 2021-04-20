@@ -11,40 +11,39 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.casestudy.dto.CarDto;
 import com.casestudy.entity.Car;
 import com.casestudy.repository.CarRepository;
+import com.casestudy.service.CarService;
 
 @RestController
 public class CarController {
 
 	@Autowired
-	CarRepository carRepository;
+	CarService carService;
 	
-	@GetMapping()
-	private List<Car> getAllCars(){
-		return carRepository.findAll();
+	@GetMapping("/cars")
+	private List<CarDto> getAllCars(){
+		return carService.getAllCars();
 	}
 	
 	@GetMapping("/car/{id}")
-	private Car getCar(@PathVariable("id")Long id) {
-		Car car = carRepository.findById(id).get();
-		return car;
+	private CarDto getCar(@PathVariable("id")Long id) {
+		return carService.getCar(id);
 	}
 	
 	@DeleteMapping("/car/{id}")
 	private void deleteCar(@PathVariable("id")Long id) {
-		carRepository.deleteById(id);
+		carService.deleteCar(id);
 	}
 	
 	@PostMapping("/car")
-	private void saveCar(@RequestBody Car car) {
-		carRepository.save(car);
-		
+	private CarDto saveCar(@RequestBody CarDto carDto) {
+		return carService.mergeCar(carDto);
 	}
 	
 	@PutMapping("/car")
-	private Car updateCar(@RequestBody Car car) {
-		carRepository.save(car);
-		return car;
+	private CarDto updateCar(@RequestBody CarDto carDto) {
+		return carService.mergeCar(carDto);
 	}
 }
