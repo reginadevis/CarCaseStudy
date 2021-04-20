@@ -6,11 +6,7 @@ import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;
 
 import com.casestudy.dto.CarDto;
-import com.casestudy.dto.ManufacturerDto;
-import com.casestudy.dto.ModelDto;
 import com.casestudy.entity.Car;
-import com.casestudy.entity.Manufacturer;
-import com.casestudy.entity.Model;
 
 @Mapper
 public interface CarMapper {
@@ -26,9 +22,5 @@ public interface CarMapper {
 	ModelDto modelToModelDto(Model model);
 	
 	Model modelDtoToModel(ModelDto modelDto);
-	
-	ManufacturerDto manufacturerToManufacturerDto(Manufacturer manufacturer);
-	
-	Manufacturer manufacturerDtoToManufacturer(ManufacturerDto manufacturerDto);
 	
 }

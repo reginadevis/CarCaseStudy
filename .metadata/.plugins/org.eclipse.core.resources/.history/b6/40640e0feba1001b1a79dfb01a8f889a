@@ -16,13 +16,13 @@ import lombok.Setter;
 @AllArgsConstructor
 public class CarDto {
 
+	
 	Long ID;
 
-	@NotNull
-	ManufacturerDto manufacturer;
+	String manufacturer;
 
 	@NotNull
-	ModelDto model;
+	String model;
 
 	Integer year;
 

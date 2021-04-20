@@ -5,6 +5,8 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.OneToOne;
 
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
@@ -20,12 +22,18 @@ import lombok.Setter;
 @Setter(AccessLevel.PUBLIC)
 @Getter(AccessLevel.PUBLIC)
 public class Manufacturer {
-	
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	Long manufacturer_id;
+	Long manufacturerId;
 
 	@Column(name = "manufacturer")
 	String manufacturer;
 
+	@OneToOne
+	@JoinColumn(name = "manufacturerId", nullable = false)
+	Car car;
+
+	@OneToOne
+	Model model;
 }

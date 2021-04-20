@@ -5,7 +5,8 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.OneToOne;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
@@ -14,34 +15,26 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-@Entity(name = "car")
+@Entity(name = "model")
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
 @Setter(AccessLevel.PUBLIC)
 @Getter(AccessLevel.PUBLIC)
-public class Car {
-
+public class Model {
+	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	Long ID;
-
-	@OneToOne(mappedBy = "car")
+	Long modelId;
+	
+	@Column(name = "model")
+	String model;
+	
+	@ManyToOne
+	@JoinColumn(name="modelId",nullable=false)
+	Car car;
+	
+	@OneToOne
+	@JoinColumn(name="manufacturerId",nullable=false)
 	Manufacturer manufacturer;
-
-	@OneToOne(mappedBy = "car")
-	Model model;
-
-	@Column(name = "year")
-	Integer year;
-
-	@Column(name = "color")
-	String color;
-
-	@Column(name = "vin")
-	Integer vin;
-
-	@Column(name = "miles")
-	Double miles;
-
 }

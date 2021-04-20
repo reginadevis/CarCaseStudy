@@ -26,9 +26,11 @@ public class Car {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	Long ID;
 
+	@Column(name = "manufacturer")
 	@OneToOne(mappedBy = "car")
 	Manufacturer manufacturer;
 
+	@Column(name = "model")
 	@OneToOne(mappedBy = "car")
 	Model model;
 

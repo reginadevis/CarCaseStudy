@@ -29,6 +29,6 @@ public interface CarMapper {
 	
 	ManufacturerDto manufacturerToManufacturerDto(Manufacturer manufacturer);
 	
-	Manufacturer manufacturerDtoToManufacturer(ManufacturerDto manufacturerDto);
+	
 	
 }
