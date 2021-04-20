@@ -13,36 +13,34 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-@Entity(name="car")
+@Entity(name = "car")
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
 @Setter(AccessLevel.PUBLIC)
 @Getter(AccessLevel.PUBLIC)
 public class Car {
-	
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	Long ID;
-	
-	@Column(name="manufacturer")
+
+	@Column(name = "manufacturer")
 	String manufacturer;
-	
-	@Column(name="model")
+
+	@Column(name = "model")
 	String model;
-	
-	@Column(name="year")
+
+	@Column(name = "year")
 	Integer year;
-	
-	@Column(name="color")
+
+	@Column(name = "color")
 	String color;
-	
-	@Column(name="vin")
+
+	@Column(name = "vin")
 	Integer vin;
-	
-	@Column(name="miles")
+
+	@Column(name = "miles")
 	Double miles;
-
-
 
 }

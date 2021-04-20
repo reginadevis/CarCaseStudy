@@ -1,0 +1,8 @@
+package com.casestudy.exception;
+
+public class CarNotFoundException extends RuntimeException {
+
+	public StudentNotFoundException(String exception) {
+		super(exception);
+	}
+}

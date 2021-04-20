@@ -7,7 +7,8 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @SpringBootApplication
-@ComponentScan(basePackages = {"com.casestudy.controller","com.casestudy.service","com.casestudy.dto","com.casestudy.mapper"})
+@ComponentScan(basePackages = { "com.casestudy.controller", "com.casestudy.service", "com.casestudy.dto",
+		"com.casestudy.mapper" })
 @EnableJpaRepositories("com.casestudy.repository")
 @EntityScan("com.casestudy.entity")
 public class CarApplication {

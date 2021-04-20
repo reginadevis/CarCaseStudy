@@ -52,7 +52,6 @@ INDEX VERSION 1.131+C:\workspace\car\.metadata\.plugins\org.eclipse.jdt.core
 597688878.index
 2300919785.index
 1568315281.index
-685985929.index
 1420155249.index
 4039521127.index
 2531996796.index

@@ -1,0 +1,7 @@
+package com.casestudy.exception;
+
+import ResponseEntityExceptionHandler;
+
+public class CustomizedResponseEntityExceptionHandler extends ResponseEntityExceptionHandler {
+
+}

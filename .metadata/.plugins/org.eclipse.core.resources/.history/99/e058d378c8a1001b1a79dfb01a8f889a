@@ -1,0 +1,9 @@
+spring.jpa.hibernate.ddl-auto=none
+spring.datasource.url=jdbc:mysql://localhost:3306/test
+spring.datasource.username=root
+spring.datasource.password=root
+logging.level.root=INFO
+flyway.user=user
+flyway.password=root
+flyway.schemas=casestudy
+spring.flyway.baseline-on-migrate = true
