@@ -3,7 +3,6 @@ package com.casestudy.mapper;
 import java.util.List;
 
 import org.mapstruct.Mapper;
-import org.mapstruct.Mapping;
 import org.mapstruct.factory.Mappers;
 
 import com.casestudy.dto.CarDto;
@@ -25,11 +24,11 @@ public interface CarMapper {
 	List<CarDto> carListtoCarDtoList(List<Car> cars);
 
 	ModelDto modelToModelDto(Model model);
-	
+
 	Model modelDtoToModel(ModelDto modelDto);
-	
+
 	ManufacturerDto manufacturerToManufacturerDto(Manufacturer manufacturer);
-	
+
 	Manufacturer manufacturerDtoToManufacturer(ManufacturerDto manufacturerDto);
-	
+
 }

@@ -1,0 +1,135 @@
+package com.casestudy.mapper;
+
+import com.casestudy.dto.CarDto;
+import com.casestudy.dto.ManufacturerDto;
+import com.casestudy.dto.ModelDto;
+import com.casestudy.entity.Car;
+import com.casestudy.entity.Manufacturer;
+import com.casestudy.entity.Model;
+import java.util.ArrayList;
+import java.util.List;
+import javax.annotation.Generated;
+
+@Generated(
+    value = "org.mapstruct.ap.MappingProcessor",
+    date = "2021-04-21T19:24:55+0530",
+    comments = "version: 1.3.1.Final, compiler: Eclipse JDT (IDE) 1.3.1200.v20200916-0645, environment: Java 15.0.2 (Oracle Corporation)"
+)
+public class CarMapperImpl implements CarMapper {
+
+    @Override
+    public CarDto carToCarDto(Car car) {
+        if ( car == null ) {
+            return null;
+        }
+
+        CarDto carDto = new CarDto();
+
+        carDto.setColor( car.getColor() );
+        carDto.setID( car.getID() );
+        carDto.setMiles( car.getMiles() );
+        carDto.setModel( modelToModelDto( car.getModel() ) );
+        carDto.setVin( car.getVin() );
+        carDto.setYear( car.getYear() );
+
+        return carDto;
+    }
+
+    @Override
+    public Car carDtotoCar(CarDto carDto) {
+        if ( carDto == null ) {
+            return null;
+        }
+
+        Car car = new Car();
+
+        car.setColor( carDto.getColor() );
+        car.setID( carDto.getID() );
+        car.setMiles( carDto.getMiles() );
+        car.setModel( modelDtoToModel( carDto.getModel() ) );
+        car.setVin( carDto.getVin() );
+        car.setYear( carDto.getYear() );
+
+        return car;
+    }
+
+    @Override
+    public List<CarDto> carListtoCarDtoList(List<Car> cars) {
+        if ( cars == null ) {
+            return null;
+        }
+
+        List<CarDto> list = new ArrayList<CarDto>( cars.size() );
+        for ( Car car : cars ) {
+            list.add( carToCarDto( car ) );
+        }
+
+        return list;
+    }
+
+    @Override
+    public ModelDto modelToModelDto(Model model) {
+        if ( model == null ) {
+            return null;
+        }
+
+        ModelDto modelDto = new ModelDto();
+
+        modelDto.setManufacturer( manufacturerToManufacturerDto( model.getManufacturer() ) );
+        modelDto.setModel( model.getModel() );
+        if ( model.getModel_id() != null ) {
+            modelDto.setModel_id( model.getModel_id().intValue() );
+        }
+
+        return modelDto;
+    }
+
+    @Override
+    public Model modelDtoToModel(ModelDto modelDto) {
+        if ( modelDto == null ) {
+            return null;
+        }
+
+        Model model = new Model();
+
+        model.setManufacturer( manufacturerDtoToManufacturer( modelDto.getManufacturer() ) );
+        model.setModel( modelDto.getModel() );
+        if ( modelDto.getModel_id() != null ) {
+            model.setModel_id( modelDto.getModel_id().longValue() );
+        }
+
+        return model;
+    }
+
+    @Override
+    public ManufacturerDto manufacturerToManufacturerDto(Manufacturer manufacturer) {
+        if ( manufacturer == null ) {
+            return null;
+        }
+
+        ManufacturerDto manufacturerDto = new ManufacturerDto();
+
+        manufacturerDto.setManufacturer( manufacturer.getManufacturer() );
+        if ( manufacturer.getManufacturer_id() != null ) {
+            manufacturerDto.setManufacturer_id( manufacturer.getManufacturer_id().intValue() );
+        }
+
+        return manufacturerDto;
+    }
+
+    @Override
+    public Manufacturer manufacturerDtoToManufacturer(ManufacturerDto manufacturerDto) {
+        if ( manufacturerDto == null ) {
+            return null;
+        }
+
+        Manufacturer manufacturer = new Manufacturer();
+
+        manufacturer.setManufacturer( manufacturerDto.getManufacturer() );
+        if ( manufacturerDto.getManufacturer_id() != null ) {
+            manufacturer.setManufacturer_id( manufacturerDto.getManufacturer_id().longValue() );
+        }
+
+        return manufacturer;
+    }
+}

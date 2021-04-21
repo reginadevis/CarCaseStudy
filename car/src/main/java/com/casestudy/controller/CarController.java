@@ -46,7 +46,7 @@ public class CarController {
 
 	@PostMapping("/car")
 	private CarDto saveCar(@RequestBody CarDto carDto) {
-		System.out.println("Controoler : carDto :"+carDto.getModel().getManufacturer().getManufacturer_id());
+		System.out.println("Controoler : carDto :" + carDto.getModel().getManufacturer().getManufacturer_id());
 		return carService.mergeCar(carDto);
 	}
 

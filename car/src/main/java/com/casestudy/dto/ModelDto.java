@@ -1,9 +1,5 @@
 package com.casestudy.dto;
 
-import java.util.List;
-
-import com.fasterxml.jackson.annotation.JsonIgnore;
-
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -19,7 +15,7 @@ import lombok.Setter;
 public class ModelDto {
 
 	Integer model_id;
-	
+
 	String model;
 
 	ManufacturerDto manufacturer;

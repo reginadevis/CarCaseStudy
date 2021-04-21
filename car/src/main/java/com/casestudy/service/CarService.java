@@ -2,9 +2,8 @@ package com.casestudy.service;
 
 import java.util.List;
 
-import javax.transaction.Transactional;
-
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.stereotype.Service;
 
 import com.casestudy.dto.CarDto;
@@ -43,13 +42,18 @@ public class CarService {
 		}
 	}
 
-	@Transactional
 	public CarDto mergeCar(CarDto carDto) {
 		CarDto carUpdate = null;
 		try {
 			Car car = CarMapper.INSTANCE.carDtotoCar(carDto);
 			Car updatedCar = carRepository.save(car);
 			carUpdate = CarMapper.INSTANCE.carToCarDto(updatedCar);
+		} catch (DataIntegrityViolationException exception) {
+			if (exception.getLocalizedMessage().contains("ConstraintViolationException")
+					&& exception.getLocalizedMessage().contains("vin")) {
+				throw new CarNotFoundException("Vehicle already present");
+			}
+			throw new CarNotFoundException(exception.getMessage());
 		} catch (Exception e) {
 			e.printStackTrace();
 			throw new CarNotFoundException(e.getMessage());

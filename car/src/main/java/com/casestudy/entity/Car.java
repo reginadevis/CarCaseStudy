@@ -9,8 +9,6 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
-import javax.persistence.OneToOne;
-
 
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
@@ -32,7 +30,7 @@ public class Car {
 	Long ID;
 
 	@ManyToOne(fetch = FetchType.EAGER, cascade = CascadeType.MERGE)
-	@JoinColumn(name="model_id", referencedColumnName="model_id", nullable=true)
+	@JoinColumn(name = "model_id", referencedColumnName = "model_id", nullable = true)
 	Model model;
 
 	Integer year;

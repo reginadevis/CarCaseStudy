@@ -11,7 +11,6 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.OneToMany;
-import javax.persistence.OneToOne;
 
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
@@ -36,7 +35,7 @@ public class Manufacturer {
 	String manufacturer;
 
 	@OneToMany(fetch = FetchType.EAGER, cascade = CascadeType.MERGE)
-	@JoinColumn(name="manufacturer_id", referencedColumnName="manufacturer_id", nullable=true)
+	@JoinColumn(name = "manufacturer_id", referencedColumnName = "manufacturer_id", nullable = true)
 	List<Model> model;
 
 }
