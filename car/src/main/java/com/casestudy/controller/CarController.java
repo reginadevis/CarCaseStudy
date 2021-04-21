@@ -34,7 +34,6 @@ public class CarController {
 	private CarDto getCar(@PathVariable("id") Long id) {
 		CarDto car = carService.getCar(id);
 		if (ObjectUtils.isEmpty(car)) {
-			System.out.println("Car is null");
 			throw new CarNotFoundException("id- " + id);
 		}
 		return carService.getCar(id);
@@ -47,6 +46,7 @@ public class CarController {
 
 	@PostMapping("/car")
 	private CarDto saveCar(@RequestBody CarDto carDto) {
+		System.out.println("Controoler : carDto :"+carDto.getModel().getModel_id());
 		return carService.mergeCar(carDto);
 	}
 

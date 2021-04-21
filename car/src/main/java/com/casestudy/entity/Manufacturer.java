@@ -1,11 +1,15 @@
 package com.casestudy.entity;
 
+import java.util.List;
+
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
+import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
 
 import lombok.AccessLevel;
@@ -25,15 +29,12 @@ public class Manufacturer {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	Long manufacturerId;
+	Long manufacturer_id;
 
 	@Column(name = "manufacturer")
 	String manufacturer;
 
-	@OneToOne
-	@JoinColumn(name = "manufacturerId", nullable = false)
-	Car car;
+	@OneToMany(mappedBy="manufacturer", cascade =CascadeType.ALL)
+	List<Model> model;
 
-	@OneToOne
-	Model model;
 }

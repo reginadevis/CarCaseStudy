@@ -1,0 +1,38 @@
+package com.casestudy.mapper;
+
+import java.util.List;
+
+import org.mapstruct.Mapper;
+import org.mapstruct.Mapping;
+import org.mapstruct.factory.Mappers;
+
+import com.casestudy.dto.CarDto;
+import com.casestudy.dto.ManufacturerDto;
+import com.casestudy.dto.ModelDto;
+import com.casestudy.entity.Car;
+import com.casestudy.entity.Manufacturer;
+import com.casestudy.entity.Model;
+
+@Mapper
+public interface CarMapper {
+
+	CarMapper INSTANCE = Mappers.getMapper(CarMapper.class);
+
+	@Mapping(source="model.model" ,target="model.model" )
+	@Mapping(source="model.model_id" ,target="model.model_id" )
+	CarDto carToCarDto(Car car);
+
+	Car carDtotoCar(CarDto carDto);
+
+	List<CarDto> carListtoCarDtoList(List<Car> cars);
+
+	@Mapping(source="model.manufacturer_id" ,target="model.manufacturer_id" )
+	ModelDto modelToModelDto(Model model);
+	
+	Model modelDtoToModel(ModelDto modelDto);
+	
+	ManufacturerDto manufacturerToManufacturerDto(Manufacturer manufacturer);
+	
+	Manufacturer manufacturerDtoToManufacturer(ManufacturerDto manufacturerDto);
+	
+}

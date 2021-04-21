@@ -1,11 +1,17 @@
 package com.casestudy.entity;
 
+import java.util.List;
+
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
 
 import lombok.AccessLevel;
@@ -24,17 +30,16 @@ import lombok.Setter;
 public class Model {
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	Long modelId;
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	@Column(name="model_id")
+	Long model_id;
 
 	@Column(name = "model")
 	String model;
 
-	@OneToOne
-	@JoinColumn(name = "modelId", nullable = false)
-	Car car;
+	@OneToMany(fetch = FetchType.EAGER, cascade = CascadeType.PERSIST)
+	List<Car> car;
 
-	@OneToOne
-	@JoinColumn(name = "manufacturerId", nullable = false)
+	@ManyToOne
 	Manufacturer manufacturer;
 }

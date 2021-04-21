@@ -1,11 +1,15 @@
 package com.casestudy.entity;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 import javax.persistence.OneToOne;
+
 
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
@@ -26,13 +30,10 @@ public class Car {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	Long ID;
 
-	@OneToOne(mappedBy = "car")
-	Manufacturer manufacturer;
-
-	@OneToOne(mappedBy = "car")
+	@ManyToOne
+	@JoinColumn(name="model_id", referencedColumnName="model_id", nullable=true)
 	Model model;
 
-	@Column(name = "year")
 	Integer year;
 
 	@Column(name = "color")

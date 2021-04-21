@@ -26,6 +26,7 @@ public class CarService {
 		try {
 			car = carRepository.findById(id).get();
 		} catch (Exception e) {
+			e.printStackTrace();
 			throw new CarNotFoundException(e.getMessage());
 		}
 		return CarMapper.INSTANCE.carToCarDto(car);
@@ -35,6 +36,7 @@ public class CarService {
 		try {
 			carRepository.deleteById(id);
 		} catch (Exception e) {
+			e.printStackTrace();
 			throw new CarNotFoundException(e.getMessage());
 		}
 	}
@@ -42,10 +44,14 @@ public class CarService {
 	public CarDto mergeCar(CarDto carDto) {
 		CarDto carUpdate = null;
 		try {
+			System.out.println("Car color :" +carDto.getColor());
+			System.out.println("CarDto : "+carDto.getModel().getModel_id());
 			Car car = CarMapper.INSTANCE.carDtotoCar(carDto);
+			System.out.println("car : "+car.getModel().getModel_id());
 			Car updatedCar = carRepository.save(car);
 			carUpdate = CarMapper.INSTANCE.carToCarDto(updatedCar);
 		} catch (Exception e) {
+			e.printStackTrace();
 			throw new CarNotFoundException(e.getMessage());
 		}
 		return carUpdate;
