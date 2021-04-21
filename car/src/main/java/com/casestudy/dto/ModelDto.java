@@ -21,6 +21,6 @@ public class ModelDto {
 	Integer model_id;
 	
 	String model;
-	
-	ManufacturerDto manufacturerDto;
+
+	ManufacturerDto manufacturer;
 }

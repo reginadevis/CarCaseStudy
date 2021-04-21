@@ -3,6 +3,7 @@ package com.casestudy.entity;
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -30,7 +31,7 @@ public class Car {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	Long ID;
 
-	@ManyToOne
+	@ManyToOne(fetch = FetchType.EAGER, cascade = CascadeType.MERGE)
 	@JoinColumn(name="model_id", referencedColumnName="model_id", nullable=true)
 	Model model;
 

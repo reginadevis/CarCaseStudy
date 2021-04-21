@@ -37,9 +37,11 @@ public class Model {
 	@Column(name = "model")
 	String model;
 
-	@OneToMany(fetch = FetchType.EAGER, cascade = CascadeType.PERSIST)
+	@OneToMany(fetch = FetchType.EAGER, cascade = CascadeType.MERGE)
+	@JoinColumn(name="model_id", referencedColumnName="model_id", nullable=true)
 	List<Car> car;
 
-	@ManyToOne
+	@ManyToOne(fetch = FetchType.EAGER, cascade = CascadeType.MERGE)
+	@JoinColumn(name="manufacturer_id", referencedColumnName="manufacturer_id", nullable=true)
 	Manufacturer manufacturer;
 }

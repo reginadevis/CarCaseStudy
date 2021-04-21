@@ -2,6 +2,8 @@ package com.casestudy.service;
 
 import java.util.List;
 
+import javax.transaction.Transactional;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -41,13 +43,11 @@ public class CarService {
 		}
 	}
 
+	@Transactional
 	public CarDto mergeCar(CarDto carDto) {
 		CarDto carUpdate = null;
 		try {
-			System.out.println("Car color :" +carDto.getColor());
-			System.out.println("CarDto : "+carDto.getModel().getModel_id());
 			Car car = CarMapper.INSTANCE.carDtotoCar(carDto);
-			System.out.println("car : "+car.getModel().getModel_id());
 			Car updatedCar = carRepository.save(car);
 			carUpdate = CarMapper.INSTANCE.carToCarDto(updatedCar);
 		} catch (Exception e) {
