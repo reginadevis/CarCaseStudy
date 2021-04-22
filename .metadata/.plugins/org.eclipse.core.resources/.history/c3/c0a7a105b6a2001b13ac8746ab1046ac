@@ -1,0 +1,4 @@
+vin.present=Duplicate entry of car
+car.notpresent=No entry present for the requested car
+common.error=Internel error. Please reach out to the application administrator
+error.notfound=Resource not available

@@ -1,0 +1,6 @@
+vin.present=Entrada de coche duplicada
+error.notfound=Recurso no disponible
+car.notpresent=No entry present for the requested car
+model.issue=Please check model id provided
+manufacturer.issue=Please check manufacturer id provided
+common.error=Internal error. Please reach out to the application administrator

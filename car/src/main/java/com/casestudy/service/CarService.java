@@ -4,11 +4,12 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataIntegrityViolationException;
+import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
+import org.springframework.web.server.ResponseStatusException;
 
 import com.casestudy.dto.CarDto;
 import com.casestudy.entity.Car;
-import com.casestudy.exception.CarNotFoundException;
 import com.casestudy.mapper.CarMapper;
 import com.casestudy.repository.CarRepository;
 
@@ -28,7 +29,7 @@ public class CarService {
 			car = carRepository.findById(id).get();
 		} catch (Exception e) {
 			e.printStackTrace();
-			throw new CarNotFoundException(e.getMessage());
+			throw new ResponseStatusException(HttpStatus.BAD_REQUEST,"car.notpresent",e);
 		}
 		return CarMapper.INSTANCE.carToCarDto(car);
 	}
@@ -38,26 +39,26 @@ public class CarService {
 			carRepository.deleteById(id);
 		} catch (Exception e) {
 			e.printStackTrace();
-			throw new CarNotFoundException(e.getMessage());
+			throw new ResponseStatusException(HttpStatus.BAD_REQUEST,"car.notpresent",e);
 		}
 	}
 
 	public CarDto mergeCar(CarDto carDto) {
 		CarDto carUpdate = null;
 		try {
-			Car car = CarMapper.INSTANCE.carDtotoCar(carDto);
-			Car updatedCar = carRepository.save(car);
-			carUpdate = CarMapper.INSTANCE.carToCarDto(updatedCar);
-		} catch (DataIntegrityViolationException exception) {
-			if (exception.getLocalizedMessage().contains("ConstraintViolationException")
-					&& exception.getLocalizedMessage().contains("vin")) {
-				throw new CarNotFoundException("Vehicle already present");
-			}
-			throw new CarNotFoundException(exception.getMessage());
-		} catch (Exception e) {
-			e.printStackTrace();
-			throw new CarNotFoundException(e.getMessage());
+		Car car = CarMapper.INSTANCE.carDtotoCar(carDto);
+		Car updatedCar = carRepository.save(car);
+		carUpdate = CarMapper.INSTANCE.carToCarDto(updatedCar);
+		} catch(DataIntegrityViolationException ex) {
+			ex.printStackTrace();
+			if(ex.getMessage().contains("vin"))
+				throw new ResponseStatusException(HttpStatus.BAD_REQUEST,"vin.present",ex);
+			if(ex.getMessage().contains("model"))
+				throw new ResponseStatusException(HttpStatus.BAD_REQUEST,"model.issue",ex);
+			if(ex.getMessage().contains("manufacturer"))
+				throw new ResponseStatusException(HttpStatus.BAD_REQUEST,"manufacturer.issue",ex);
 		}
+		
 		return carUpdate;
 	}
 }

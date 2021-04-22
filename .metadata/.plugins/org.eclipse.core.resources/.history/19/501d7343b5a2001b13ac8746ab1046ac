@@ -1,0 +1,3 @@
+vin.present=Duplicate entry of car
+car.notpresent=No entry present for the requested car
+error.notfound=Resource not available

@@ -3,6 +3,7 @@ package com.casestudy.controller;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.util.ObjectUtils;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -11,9 +12,9 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.server.ResponseStatusException;
 
 import com.casestudy.dto.CarDto;
-import com.casestudy.exception.CarNotFoundException;
 import com.casestudy.service.CarService;
 
 @RestController
@@ -26,7 +27,7 @@ public class CarController {
 	private List<CarDto> getAllCars() {
 		List<CarDto> cars = carService.getAllCars();
 		if (cars.isEmpty())
-			throw new CarNotFoundException("No cars in database");
+			throw new ResponseStatusException(HttpStatus.BAD_REQUEST,"common.error");
 		return cars;
 	}
 
@@ -34,7 +35,7 @@ public class CarController {
 	private CarDto getCar(@PathVariable("id") Long id) {
 		CarDto car = carService.getCar(id);
 		if (ObjectUtils.isEmpty(car)) {
-			throw new CarNotFoundException("id- " + id);
+			throw new ResponseStatusException(HttpStatus.BAD_REQUEST,"common.error");
 		}
 		return carService.getCar(id);
 	}
