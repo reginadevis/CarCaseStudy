@@ -2,6 +2,8 @@ package com.casestudy.controller;
 
 import java.util.List;
 
+import javax.validation.Valid;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.util.ObjectUtils;
@@ -27,7 +29,7 @@ public class CarController {
 	private List<CarDto> getAllCars() {
 		List<CarDto> cars = carService.getAllCars();
 		if (cars.isEmpty())
-			throw new ResponseStatusException(HttpStatus.BAD_REQUEST,"common.error");
+			throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "common.error");
 		return cars;
 	}
 
@@ -35,7 +37,7 @@ public class CarController {
 	private CarDto getCar(@PathVariable("id") Long id) {
 		CarDto car = carService.getCar(id);
 		if (ObjectUtils.isEmpty(car)) {
-			throw new ResponseStatusException(HttpStatus.BAD_REQUEST,"common.error");
+			throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "common.error");
 		}
 		return carService.getCar(id);
 	}
@@ -46,7 +48,7 @@ public class CarController {
 	}
 
 	@PostMapping("/car")
-	private CarDto saveCar(@RequestBody CarDto carDto) {
+	private CarDto saveCar(@Valid @RequestBody CarDto carDto) {
 		System.out.println("Controoler : carDto :" + carDto.getModel().getManufacturer().getManufacturer_id());
 		return carService.mergeCar(carDto);
 	}

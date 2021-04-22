@@ -4,7 +4,6 @@
     <fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
     <fullyQualifiedTypeName name="javax.persistence.GenerationType"/>
     <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.JpaRepository"/>
-    <fullyQualifiedTypeName name="com.casestudy.repository.CarRepository"/>
     <fullyQualifiedTypeName name="com.cases.entity.Car"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
@@ -21,7 +20,6 @@
     <fullyQualifiedTypeName name="javax.persistence.Column"/>
     <fullyQualifiedTypeName name="javax.persistence.Table"/>
     <fullyQualifiedTypeName name="lombok.ToString"/>
-    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
     <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
     <fullyQualifiedTypeName name="lombok.Data"/>
     <fullyQualifiedTypeName name="org.mapstruct.Mapper"/>
@@ -36,4 +34,18 @@
     <fullyQualifiedTypeName name="lombok.Setter"/>
     <fullyQualifiedTypeName name="lombok.Getter"/>
     <fullyQualifiedTypeName name="org.mapstruct.Mapping"/>
+    <fullyQualifiedTypeName name="javax.validation.ConstraintValidator"/>
+    <fullyQualifiedTypeName name="javax.validation.Validator"/>
+    <fullyQualifiedTypeName name="org.springframework.util.CollectionUtils"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="com.casestudy.repository.CarRepository"/>
+    <fullyQualifiedTypeName name="com.casestudy.entity.Model"/>
+    <fullyQualifiedTypeName name="com.casestudy.repository.ModelRepository"/>
+    <fullyQualifiedTypeName name="com.casestudy.dto.ModelDto"/>
+    <fullyQualifiedTypeName name="org.springframework.util.ObjectUtils"/>
+    <fullyQualifiedTypeName name="com.casestudy.validator.ValidCarModel"/>
+    <fullyQualifiedTypeName name="com.casestudy.repository.ManufacturerRepository"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="com.casestudy.entity.Manufacturer"/>
+    <fullyQualifiedTypeName name="java.sql.SQLIntegrityConstraintViolationException"/>
 </qualifiedTypeNameHistroy>

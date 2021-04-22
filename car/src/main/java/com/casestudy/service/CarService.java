@@ -29,7 +29,7 @@ public class CarService {
 			car = carRepository.findById(id).get();
 		} catch (Exception e) {
 			e.printStackTrace();
-			throw new ResponseStatusException(HttpStatus.BAD_REQUEST,"car.notpresent",e);
+			throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "car.notpresent", e);
 		}
 		return CarMapper.INSTANCE.carToCarDto(car);
 	}
@@ -39,26 +39,36 @@ public class CarService {
 			carRepository.deleteById(id);
 		} catch (Exception e) {
 			e.printStackTrace();
-			throw new ResponseStatusException(HttpStatus.BAD_REQUEST,"car.notpresent",e);
+			throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "car.notpresent", e);
 		}
 	}
 
 	public CarDto mergeCar(CarDto carDto) {
 		CarDto carUpdate = null;
 		try {
-		Car car = CarMapper.INSTANCE.carDtotoCar(carDto);
-		Car updatedCar = carRepository.save(car);
-		carUpdate = CarMapper.INSTANCE.carToCarDto(updatedCar);
-		} catch(DataIntegrityViolationException ex) {
+			System.out.println("car from jackson " + carDto.getModel().getModel_id());
+			Car car = CarMapper.INSTANCE.carDtotoCar(carDto);
+			System.out.println("car from mapper " + car.getModel().getModel_id());
+			Car updatedCar = carRepository.save(car);
+			System.out.println("car after save " + car.getModel().getModel_id());
+			carUpdate = CarMapper.INSTANCE.carToCarDto(updatedCar);
+			System.out.println("car after save mapper " + carUpdate.getModel().getModel_id());
+
+		} catch (DataIntegrityViolationException ex) {
 			ex.printStackTrace();
-			if(ex.getMessage().contains("vin"))
-				throw new ResponseStatusException(HttpStatus.BAD_REQUEST,"vin.present",ex);
-			if(ex.getMessage().contains("model"))
-				throw new ResponseStatusException(HttpStatus.BAD_REQUEST,"model.issue",ex);
-			if(ex.getMessage().contains("manufacturer"))
-				throw new ResponseStatusException(HttpStatus.BAD_REQUEST,"manufacturer.issue",ex);
+			if (ex.getMessage().contains("vin"))
+				throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "vin.present", ex);
+
+		} catch (Exception exception) {
+			exception.printStackTrace();
+			if (exception.getMessage().contains("model"))
+				throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "model.issue", exception);
+			if (exception.getMessage().contains("manufacturer"))
+				throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "manufacturer.issue", exception);
+
+			throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "common.error", exception);
 		}
-		
+
 		return carUpdate;
 	}
 }

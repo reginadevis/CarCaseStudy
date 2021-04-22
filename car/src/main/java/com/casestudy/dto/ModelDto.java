@@ -1,5 +1,7 @@
 package com.casestudy.dto;
 
+import javax.validation.constraints.NotNull;
+
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -14,7 +16,8 @@ import lombok.Setter;
 @AllArgsConstructor
 public class ModelDto {
 
-	Integer model_id;
+	@NotNull
+	Long model_id;
 
 	String model;
 

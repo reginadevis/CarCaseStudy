@@ -1,5 +1,7 @@
 package com.casestudy.dto;
 
+import com.casestudy.validator.ValidCarModel;
+
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -16,6 +18,7 @@ public class CarDto {
 
 	Long ID;
 
+	@ValidCarModel
 	ModelDto model;
 
 	Integer year;

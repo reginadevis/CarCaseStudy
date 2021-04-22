@@ -1,0 +1,42 @@
+package com.casestudy.validator;
+
+import javax.validation.ConstraintValidator;
+import javax.validation.ConstraintValidatorContext;
+import javax.validation.Validator;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.util.ObjectUtils;
+
+import com.casestudy.dto.ModelDto;
+import com.casestudy.entity.Manufacturer;
+import com.casestudy.entity.Model;
+import com.casestudy.repository.ManufacturerRepository;
+import com.casestudy.repository.ModelRepository;
+
+public class CarModelValidator implements ConstraintValidator<ValidCarModel, ModelDto> {
+	@Autowired
+	Validator validator;
+
+	@Autowired
+	ModelRepository modelRepository;
+
+	@Autowired
+	ManufacturerRepository manufacturerRepository;
+
+	@Override
+	public boolean isValid(ModelDto modelDto, ConstraintValidatorContext constraintValidatorContext) {
+		boolean isValid = true;
+
+		Model dbModel = modelRepository.getById(modelDto.getModel_id().longValue());
+
+		Manufacturer manufacturer = manufacturerRepository.getById(modelDto.getManufacturer().getManufacturer_id().longValue());
+
+		if (ObjectUtils.isEmpty(dbModel) && (ObjectUtils.isEmpty(manufacturer))
+				&& !(dbModel.getManufacturer().equals(manufacturer))) {
+			isValid = false;
+		}
+
+		return isValid;
+	}
+
+}

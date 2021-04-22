@@ -1,0 +1,9 @@
+package com.casestudy.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.casestudy.entity.Model;
+
+public interface ModelRepository extends JpaRepository<Model, Long> {
+
+}

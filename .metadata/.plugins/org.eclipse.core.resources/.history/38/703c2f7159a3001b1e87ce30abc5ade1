@@ -1,0 +1,5 @@
+package com.casestudy.exception;
+
+public class CustomExceptionHandler {
+
+}

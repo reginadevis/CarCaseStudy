@@ -1,0 +1,32 @@
+package com.casestudy.validator;
+
+import java.util.HashSet;
+
+import javax.validation.ConstraintValidator;
+import javax.validation.ConstraintValidatorContext;
+import javax.validation.ConstraintViolation;
+import javax.validation.Validator;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+public class CarModelValidator implements ConstraintValidator<ValidCarModel, Model> {
+	@Autowired
+	Validator validator;
+
+	@Override
+	public boolean isValid(Model model, ConstraintValidatorContext constraintValidatorContext) {
+		boolean isValid = true;
+		Set<ConstraintViolation<CustomerLocation>> constraintViolations = new HashSet();
+		constraintViolations = validator.validate(customerLocation);
+		if (!CollectionUtils.isEmpty(constraintViolations)) {
+			constraintValidatorContext.disableDefaultConstraintViolation();
+			for (ConstraintViolation<CustomerLocation> violation : constraintViolations) {
+				constraintValidatorContext.buildConstraintViolationWithTemplate(violation.getMessageTemplate())
+						.addConstraintViolation();
+			}
+			isValid = false;
+		}
+		return isValid;
+	}
+
+}
