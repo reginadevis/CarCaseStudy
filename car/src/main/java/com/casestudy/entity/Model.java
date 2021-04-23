@@ -36,11 +36,11 @@ public class Model {
 	@Column(name = "model")
 	String model;
 
-	@OneToMany(fetch = FetchType.EAGER, cascade = CascadeType.MERGE)
-	@JoinColumn(name = "model_id", referencedColumnName = "model_id", nullable = true)
+	@OneToMany(fetch = FetchType.EAGER)
+	@JoinColumn(name = "model_id", referencedColumnName = "model_id", insertable = false, updatable = false)
 	List<Car> car;
 
-	@ManyToOne(fetch = FetchType.EAGER, cascade = CascadeType.MERGE)
-	@JoinColumn(name = "manufacturer_id", referencedColumnName = "manufacturer_id", nullable = true)
+	@ManyToOne(fetch = FetchType.EAGER,cascade = CascadeType.MERGE)
+	@JoinColumn(name = "manufacturer_id", referencedColumnName = "manufacturer_id", insertable = false, updatable = false)
 	Manufacturer manufacturer;
 }

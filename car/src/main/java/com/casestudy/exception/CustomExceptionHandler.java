@@ -19,6 +19,7 @@ public class CustomExceptionHandler extends ResponseEntityExceptionHandler {
 
 	@ExceptionHandler(Exception.class)
 	public final ResponseEntity<Object> handleAllExceptions(Exception ex, WebRequest request) {
+		ex.printStackTrace();
 
 		String errorMessage = messageSource.getMessage("common.error", null, request.getLocale());
 

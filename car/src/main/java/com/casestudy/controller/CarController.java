@@ -54,7 +54,7 @@ public class CarController {
 	}
 
 	@PutMapping("/car")
-	private CarDto updateCar(@RequestBody CarDto carDto) {
+	private CarDto updateCar(@Valid @RequestBody CarDto carDto) {
 		return carService.mergeCar(carDto);
 	}
 }

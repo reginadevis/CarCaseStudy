@@ -26,27 +26,22 @@ public class CarModelValidator implements ConstraintValidator<ValidCarModel, Mod
 	@Override
 	public boolean isValid(ModelDto modelDto, ConstraintValidatorContext constraintValidatorContext) {
 
-		boolean isValid = false;
+		boolean isValid = true;
 		Model dbModel = null;
 		Manufacturer manufacturer = null;
-
-		System.out.println("Validator invoked");
 
 		try {
 			dbModel = modelRepository.getById(modelDto.getModel_id());
 
 			manufacturer = manufacturerRepository.getById(modelDto.getManufacturer().getManufacturer_id());
-
-			System.out.println(dbModel);
+			
+			System.out.println(dbModel.getModel());
+			System.out.println(manufacturer.getManufacturer());
 		} catch (EntityNotFoundException e) {
-			System.out.println("Entity not found");
 			isValid = false;
-			return isValid;
 		}
-
-		if (!dbModel.getManufacturer().equals(manufacturer)) {
-			System.out.println("Is not valid");
-			isValid = true;
+		if (isValid && !dbModel.getManufacturer().equals(manufacturer)) {
+			isValid = false;
 		}
 
 		System.out.println("isValid " + isValid);

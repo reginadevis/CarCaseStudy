@@ -21,7 +21,6 @@
     <fullyQualifiedTypeName name="javax.persistence.Table"/>
     <fullyQualifiedTypeName name="lombok.ToString"/>
     <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
-    <fullyQualifiedTypeName name="lombok.Data"/>
     <fullyQualifiedTypeName name="org.mapstruct.Mapper"/>
     <fullyQualifiedTypeName name="com.casestudy.entity.Car"/>
     <fullyQualifiedTypeName name="com.casestudy.service.CarService"/>
@@ -36,7 +35,6 @@
     <fullyQualifiedTypeName name="org.mapstruct.Mapping"/>
     <fullyQualifiedTypeName name="javax.validation.ConstraintValidator"/>
     <fullyQualifiedTypeName name="javax.validation.Validator"/>
-    <fullyQualifiedTypeName name="org.springframework.util.CollectionUtils"/>
     <fullyQualifiedTypeName name="java.util.Set"/>
     <fullyQualifiedTypeName name="com.casestudy.repository.CarRepository"/>
     <fullyQualifiedTypeName name="com.casestudy.entity.Model"/>
@@ -45,7 +43,12 @@
     <fullyQualifiedTypeName name="org.springframework.util.ObjectUtils"/>
     <fullyQualifiedTypeName name="com.casestudy.validator.ValidCarModel"/>
     <fullyQualifiedTypeName name="com.casestudy.repository.ManufacturerRepository"/>
-    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
     <fullyQualifiedTypeName name="com.casestudy.entity.Manufacturer"/>
     <fullyQualifiedTypeName name="java.sql.SQLIntegrityConstraintViolationException"/>
+    <fullyQualifiedTypeName name="org.springframework.util.CollectionUtils"/>
+    <fullyQualifiedTypeName name="javax.persistence.EntityNotFoundException"/>
+    <fullyQualifiedTypeName name="lombok.Data"/>
+    <fullyQualifiedTypeName name="org.springframework.context.MessageSource"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="java.util.Locale"/>
 </qualifiedTypeNameHistroy>
