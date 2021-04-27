@@ -1,1 +1,0 @@
-class Trial extends GroovyTestCase {    void testSomething() {        assertTrue(true);    }}
