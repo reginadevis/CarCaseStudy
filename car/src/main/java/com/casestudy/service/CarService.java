@@ -2,6 +2,7 @@ package com.casestudy.service;
 
 import java.util.List;
 
+import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.http.HttpStatus;
@@ -14,6 +15,7 @@ import com.casestudy.mapper.CarMapper;
 import com.casestudy.repository.CarRepository;
 
 @Service
+@AllArgsConstructor
 public class CarService {
 	@Autowired
 	CarRepository carRepository;
