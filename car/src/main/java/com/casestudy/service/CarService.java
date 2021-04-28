@@ -67,7 +67,10 @@ public class CarService {
 
 			throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "common.error", exception);
 		}
-
+		if(carUpdate == null)
+		{
+			throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "common.error", new RuntimeException());
+		}
 		return carUpdate;
 	}
 }

@@ -37,7 +37,6 @@ class CarServiceSpec extends Specification{
     def testgetCarNegative(){
         given:
 
-
         when:
         def actualCar = carService.getCar(4)
 
@@ -111,6 +110,7 @@ class CarServiceSpec extends Specification{
         def actualCar = carService.mergeCar(expectedCar)
 
         then:
+        actualCar == null
         thrown(ResponseStatusException)
     }
 
