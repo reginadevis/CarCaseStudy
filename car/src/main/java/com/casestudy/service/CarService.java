@@ -22,6 +22,8 @@ public class CarService {
 
 	public List<CarDto> getAllCars() {
 		List<CarDto> carDtos = CarMapper.INSTANCE.carListtoCarDtoList(carRepository.findAll());
+		if (carDtos != null && !carDtos.isEmpty()){}
+		else{throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "common.error");}
 		return carDtos;
 	}
 
@@ -48,14 +50,9 @@ public class CarService {
 	public CarDto mergeCar(CarDto carDto) {
 		CarDto carUpdate = null;
 		try {
-			System.out.println("car from jackson " + carDto.getModel().getManufacturer().getManufacturer_id());
 			Car car = CarMapper.INSTANCE.carDtotoCar(carDto);
-			System.out.println("car from mapper " + car.getModel().getManufacturer().getManufacturer_id());
 			Car updatedCar = carRepository.save(car);
-			System.out.println("car after save " + car.getModel().getManufacturer().getManufacturer_id());
 			carUpdate = CarMapper.INSTANCE.carToCarDto(updatedCar);
-			System.out.println("car after save mapper " + carUpdate.getModel().getManufacturer().getManufacturer_id());
-
 		} catch (DataIntegrityViolationException ex) {
 			ex.printStackTrace();
 			if (ex.getMessage().contains("vin"))

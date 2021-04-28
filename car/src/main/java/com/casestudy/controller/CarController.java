@@ -28,8 +28,6 @@ public class CarController {
 	@GetMapping("/cars")
 	private List<CarDto> getAllCars() {
 		List<CarDto> cars = carService.getAllCars();
-		if (cars.isEmpty())
-			throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "common.error");
 		return cars;
 	}
 
