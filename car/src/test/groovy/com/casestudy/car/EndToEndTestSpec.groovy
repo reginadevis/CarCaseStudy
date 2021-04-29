@@ -8,6 +8,8 @@ import com.casestudy.repository.CarRepository
 import com.casestudy.service.CarService
 import com.fasterxml.jackson.core.JsonFactoryBuilder
 import com.fasterxml.jackson.databind.ObjectMapper
+import org.junit.Before
+import org.junit.Rule
 import org.junit.runner.RunWith
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest
@@ -15,14 +17,25 @@ import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMock
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest
 import org.springframework.boot.test.context.SpringBootTest
 import org.springframework.http.MediaType
+import org.springframework.restdocs.JUnitRestDocumentation
 import org.springframework.test.context.junit4.SpringRunner
 import org.springframework.test.web.servlet.MockMvc
 import org.springframework.test.web.servlet.ResultMatcher
+import org.springframework.test.web.servlet.setup.MockMvcBuilders
+import org.springframework.web.context.WebApplicationContext
 import org.springframework.web.server.ResponseStatusException
 import spock.lang.Specification
 
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders
 import org.springframework.test.web.servlet.result.MockMvcResultMatchers
+
+import java.time.Instant
+
+import static org.springframework.restdocs.mockmvc.MockMvcRestDocumentation.document;
+import static org.springframework.restdocs.mockmvc.MockMvcRestDocumentation.documentationConfiguration;
+
+import static org.springframework.restdocs.operation.preprocess.Preprocessors.preprocessRequest;
+import static org.springframework.restdocs.operation.preprocess.Preprocessors.preprocessResponse;
 
 import javax.xml.ws.Response
 
@@ -31,6 +44,10 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 @SpringBootTest
 @AutoConfigureMockMvc
 class EndToEndTestSpec extends Specification{
+
+    @Rule
+    public final JUnitRestDocumentation restDocumentation = new JUnitRestDocumentation("target/generated-snippets");
+
     @Autowired
     MockMvc mockMvc
 
@@ -40,6 +57,16 @@ class EndToEndTestSpec extends Specification{
     @Autowired
     CarService carService
 
+    @Autowired
+    WebApplicationContext context
+
+    public void setup() {
+
+        this.mockMvc = MockMvcBuilders.webAppContextSetup(this.context)
+                .apply(documentationConfiguration(this.restDocumentation))
+                .build();
+    }
+
     def 'testgetAllCars'() {
 
         given:
@@ -48,7 +75,7 @@ class EndToEndTestSpec extends Specification{
 
         mockMvc.perform(MockMvcRequestBuilders.get(URI.create("/cars")))
                 .andExpect(MockMvcResultMatchers.status().isOk())
-
+                .andDo(document("testGetAllCars"))
         then:
         noExceptionThrown()
     }
@@ -61,6 +88,7 @@ class EndToEndTestSpec extends Specification{
 
         mockMvc.perform(MockMvcRequestBuilders.get(URI.create("/cars")))
                 .andExpect(MockMvcResultMatchers.status().isOk())
+                .andDo(document("testGetAllCarsNegative"))
 
         then:
         noExceptionThrown()
@@ -74,6 +102,7 @@ class EndToEndTestSpec extends Specification{
 
         mockMvc.perform(MockMvcRequestBuilders.get(URI.create("/car/1")))
                 .andExpect(MockMvcResultMatchers.status().isOk())
+                .andDo(document("testGetCar"))
 
         then:
         noExceptionThrown()
@@ -87,6 +116,7 @@ class EndToEndTestSpec extends Specification{
 
         mockMvc.perform(MockMvcRequestBuilders.get(URI.create("/car/5")))
                 .andExpect(MockMvcResultMatchers.status().isBadRequest())
+                .andDo(document("testGetCarNegative"))
 
         then:
         noExceptionThrown()
@@ -100,6 +130,7 @@ class EndToEndTestSpec extends Specification{
 
         mockMvc.perform(MockMvcRequestBuilders.delete(URI.create("/car/2")))
                 .andExpect(MockMvcResultMatchers.status().isOk())
+                .andDo(document("testdeleteCar"))
 
         then:
         noExceptionThrown()
@@ -113,6 +144,7 @@ class EndToEndTestSpec extends Specification{
 
         mockMvc.perform(MockMvcRequestBuilders.delete(URI.create("/car/6")))
                 .andExpect(MockMvcResultMatchers.status().isBadRequest())
+                .andDo(document("testDeleteCarNegative"))
 
         then:
         noExceptionThrown()
@@ -130,6 +162,7 @@ class EndToEndTestSpec extends Specification{
                 .contentType(MediaType.APPLICATION_JSON).content(asJsonString(saveCar)))
                 .andExpect(MockMvcResultMatchers.status().isOk())
                 .andExpect(MockMvcResultMatchers.content().json(asJsonString(savedCar)))
+                .andDo(document("testSaveCar"))
 
         then:
         noExceptionThrown()
@@ -146,6 +179,7 @@ class EndToEndTestSpec extends Specification{
                 .contentType(MediaType.APPLICATION_JSON).content(asJsonString(saveCar)))
                 .andExpect(MockMvcResultMatchers.status().isBadRequest())
                 .andExpect(MockMvcResultMatchers.content().string("Duplicate entry of car"))
+                .andDo(document("testSaveCarNegative"))
 
         then:
         noExceptionThrown()
@@ -163,6 +197,7 @@ class EndToEndTestSpec extends Specification{
                 .contentType(MediaType.APPLICATION_JSON).content(asJsonString(updateCar)))
                 .andExpect(MockMvcResultMatchers.status().isOk())
                 .andExpect(MockMvcResultMatchers.content().json(asJsonString(updatedCar)))
+                .andDo(document("testUpdateCar"))
 
         then:
         noExceptionThrown()
@@ -177,6 +212,7 @@ class EndToEndTestSpec extends Specification{
         mockMvc.perform(MockMvcRequestBuilders.put(URI.create("/car"))
                 .contentType(MediaType.APPLICATION_JSON).content(asJsonString(updateCar)))
                 .andExpect(MockMvcResultMatchers.status().isBadRequest())
+                .andDo(document("testUpdateCarNegative"))
 
         then:
         noExceptionThrown()
@@ -318,5 +354,10 @@ class EndToEndTestSpec extends Specification{
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
+    }
+
+    private void prettyPrint() {
+
+        System.out.println("Time is "+ Instant.now())
     }
 }
