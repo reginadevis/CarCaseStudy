@@ -17,6 +17,7 @@ import com.casestudy.repository.CarRepository;
 @Service
 @AllArgsConstructor
 public class CarService {
+
 	@Autowired
 	CarRepository carRepository;
 
@@ -33,7 +34,7 @@ public class CarService {
 			car = carRepository.findById(id).get();
 		} catch (Exception e) {
 			e.printStackTrace();
-			throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "car.notpresent", e);
+			throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "car.notpresent");
 		}
 		return CarMapper.INSTANCE.carToCarDto(car);
 	}

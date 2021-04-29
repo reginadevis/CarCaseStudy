@@ -34,10 +34,12 @@ public class CarController {
 	@GetMapping("/car/{id}")
 	private CarDto getCar(@PathVariable("id") Long id) {
 		CarDto car = carService.getCar(id);
+		System.out.println("Getting into the real carController");
 		if (ObjectUtils.isEmpty(car)) {
-			throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "common.error");
+			System.out.println("Car is empty");
+			throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "car.notpresent");
 		}
-		return carService.getCar(id);
+		return car;
 	}
 
 	@DeleteMapping("/car/{id}")
