@@ -7,15 +7,9 @@ import com.casestudy.entity.Car
 import com.casestudy.entity.Manufacturer
 import com.casestudy.entity.Model
 import com.casestudy.repository.CarRepository
-import org.dom4j.rule.Mode
-import org.junit.Test
-import org.mockito.Mock
-import org.springframework.beans.factory.annotation.Autowired
-import org.springframework.boot.test.context.SpringBootTest
 import org.springframework.web.server.ResponseStatusException
 import spock.lang.Specification
 
-@SpringBootTest
 class CarServiceSpec extends Specification{
 
     CarRepository carRepository = Mock(CarRepository)
@@ -97,6 +91,7 @@ class CarServiceSpec extends Specification{
 
         when:
         def actualCar = carService.mergeCar(expectedCar)
+\
 
         then:
         actualCar == expectedCar
