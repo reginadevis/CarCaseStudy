@@ -9,9 +9,11 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @SpringBootApplication
 @EnableJpaRepositories("repository")
 @EntityScan("entity")
-@ComponentScan(basePackages = { "controller","service","dto","mapper"})
+@ComponentScan(basePackages = { "controller","service","dto","mapper","exception","validator"})
 public class AccidentMainApp {
     public static void main(String[] args) {
         SpringApplication.run(AccidentMainApp.class, args);
     }
+
+
 }
