@@ -1,16 +1,15 @@
 package com.casestudy.mapper;
 
-import java.util.List;
-
-import org.mapstruct.Mapper;
-import org.mapstruct.factory.Mappers;
-
 import com.casestudy.dto.CarDto;
 import com.casestudy.dto.ManufacturerDto;
 import com.casestudy.dto.ModelDto;
 import com.casestudy.entity.Car;
 import com.casestudy.entity.Manufacturer;
 import com.casestudy.entity.Model;
+import org.mapstruct.Mapper;
+import org.mapstruct.factory.Mappers;
+
+import java.util.List;
 
 @Mapper
 public interface CarMapper {

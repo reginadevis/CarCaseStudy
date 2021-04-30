@@ -1,17 +1,16 @@
 package com.casestudy.validator;
 
-import javax.persistence.EntityNotFoundException;
-import javax.validation.ConstraintValidator;
-import javax.validation.ConstraintValidatorContext;
-import javax.validation.Validator;
-
-import org.springframework.beans.factory.annotation.Autowired;
-
 import com.casestudy.dto.ModelDto;
 import com.casestudy.entity.Manufacturer;
 import com.casestudy.entity.Model;
 import com.casestudy.repository.ManufacturerRepository;
 import com.casestudy.repository.ModelRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+
+import javax.persistence.EntityNotFoundException;
+import javax.validation.ConstraintValidator;
+import javax.validation.ConstraintValidatorContext;
+import javax.validation.Validator;
 
 public class CarModelValidator implements ConstraintValidator<ValidCarModel, ModelDto> {
 	@Autowired

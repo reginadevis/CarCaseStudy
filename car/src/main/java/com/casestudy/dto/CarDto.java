@@ -1,13 +1,7 @@
 package com.casestudy.dto;
 
 import com.casestudy.validator.ValidCarModel;
-
-import lombok.AccessLevel;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 @Data
 @Setter(AccessLevel.PUBLIC)

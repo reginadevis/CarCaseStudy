@@ -1,7 +1,9 @@
 package com.casestudy.service;
 
-import java.util.List;
-
+import com.casestudy.dto.CarDto;
+import com.casestudy.entity.Car;
+import com.casestudy.mapper.CarMapper;
+import com.casestudy.repository.CarRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataIntegrityViolationException;
@@ -9,10 +11,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 import org.springframework.web.server.ResponseStatusException;
 
-import com.casestudy.dto.CarDto;
-import com.casestudy.entity.Car;
-import com.casestudy.mapper.CarMapper;
-import com.casestudy.repository.CarRepository;
+import java.util.List;
 
 @Service
 @AllArgsConstructor
