@@ -16,19 +16,19 @@ public class CustomExceptionHandling extends ResponseEntityExceptionHandler {
     @ExceptionHandler(ResponseStatusException.class)
     public final ResponseEntity<Object> handleResponseStatusExceptions(Exception ex, WebRequest request) {
         ex.printStackTrace();
-        return new ResponseEntity("Bad request", HttpStatus.BAD_REQUEST);
+        return new ResponseEntity(ex.getMessage(), HttpStatus.BAD_REQUEST);
     }
 
     @ExceptionHandler(Exception.class)
     public final ResponseEntity<Object> handleAllExceptions(Exception ex, WebRequest request) {
         ex.printStackTrace();
-        return new ResponseEntity("Error occured", HttpStatus.INTERNAL_SERVER_ERROR);
+        return new ResponseEntity("Error occured. Please contact administrator", HttpStatus.INTERNAL_SERVER_ERROR);
     }
 
 
     @ExceptionHandler(ConstraintViolationException.class)
     public final ResponseEntity<Object> handleConstraintViolationException(ConstraintViolationException ex, WebRequest request) {
         ex.printStackTrace();
-        return new ResponseEntity("Constraint failed", HttpStatus.INTERNAL_SERVER_ERROR);
+        return new ResponseEntity("Vin cannot start with two", HttpStatus.INTERNAL_SERVER_ERROR);
     }
 }

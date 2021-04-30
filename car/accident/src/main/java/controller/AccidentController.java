@@ -15,6 +15,7 @@ import javax.validation.constraints.Pattern;
 import java.util.List;
 
 @RestController
+@Validated
 public class AccidentController {
     @Autowired
     AccidentService accidentService;
